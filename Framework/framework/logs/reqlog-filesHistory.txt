@@ -1,4 +1,0 @@
-logs\reqlog-2018-05\2018-05-12-18h-52m-reqlog_1.txt
-logs\reqlog-2018-05\2018-05-13-12h-31m-reqlog_1.txt
-logs\reqlog-2018-05\2018-05-12-13h-19m-reqlog_1.txt
-logs\reqlog-2018-05\2018-05-13-13h-16m-reqlog_1.txt
