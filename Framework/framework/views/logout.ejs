@@ -1,0 +1,108 @@
+<!--
+ * @copyright Caliworks & ThoughtExecution
+ * @version 1.0
+ * @date May 2018
+ * @author Rishi Raj Bansal
+-->
+
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta name="description" content="">
+	    <meta name="author" content="Rishi Raj Bansal">
+	    
+	    <title>Logout - <%= al_appName %></title>
+	    
+	    <link rel="stylesheet" href="../css/bootstrap.css" >
+	    <link rel="stylesheet" href="../css/custom.css" >
+	    <link rel="shortcut icon" href="../icons/favicon.ico">
+	    
+	    <style type="text/css">
+	    	.form-horizontal {
+				margin: 0px auto 20px;
+				max-width: 800px;
+			}
+	    </style>
+	    
+	    <script type="text/javascript">
+        
+        </script>
+	
+	</head>
+	
+	<body>
+		
+		<%- include header.ejs %>
+		
+		<main role="main">
+			
+			<div class="container" style="min-height: 550px;">
+			
+				<form class="form-horizontal needs-validation" id="logoutForm" name="logoutForm" method="post" action="<%= al_appRootContext %>" novalidate>
+				
+					<input type="hidden" id="<%= viewsConstants[0].CSURF_PARAM_NAME %>" name="<%= viewsConstants[0].CSURF_PARAM_NAME %>" value="<%= rl_csurfToken %>">
+					<input type="hidden" id="<%= viewsConstants[0].VIEW_NAME %>" name="<%= viewsConstants[0].VIEW_NAME %>" >
+					<input type="hidden" id="<%= viewsConstants[0].PARAM_ACTION %>" name="<%= viewsConstants[0].PARAM_ACTION %>" >
+					<input type="hidden" id="<%= viewsConstants[0].PARAM_ACTION_METHOD %>" name="<%= viewsConstants[0].PARAM_ACTION_METHOD %>" >
+					
+					<%- include sessionMgmt.ejs %>
+					
+					<div class="text-center">
+				  		<img src="/images/TE.png" class="rounded" width="15%">
+					</div>
+					
+					<%- include msgsHandler.ejs %>
+					
+					<br/><br/><br/>
+					<div class="alert alert-info" role="alert" style="text-align: center;">
+						<br/>
+				  		<h4 class="alert-heading">You have been logged out from the application successfully.</h4>
+						<br/><br/>
+				  		<p style="font-size: 24px; color: #1886AA;">Have a nice day !</p>
+					</div>
+					<br/><br/>
+					
+					<div style="text-align: center">
+						<button name="loginBtn" value="loginBtn" type="submit" class="btn btn-primary btn-lg" onclick="javascript:displayloginFromlogout()">Login again</button>
+					</div>
+					
+					<br/><br/><br/><br/><br/><br/>
+					
+				</form>
+			
+			</div>
+		
+		</main>
+		
+		<%- include footer.ejs %>
+	
+	</body>
+	
+	<script type="text/javascript">
+	
+		function displayloginFromlogout(){
+			document.getElementById('<%= viewsConstants[0].PARAM_ACTION %>').value 			= '<%= controllerDir[0].CONTROLLER_LOGIN %>';
+			document.getElementById('<%= viewsConstants[0].PARAM_ACTION_METHOD %>').value 	= '<%= actionMethods[0].ACTION_LOGIN_METHOD_LOGIN_LOAD %>';
+			
+			commonProperties();
+			//commonSubmit();
+		}
+		
+		function commonProperties(){
+			document.getElementById('<%= viewsConstants[0].VIEW_NAME %>').value 			= '<%= viewResponseData[viewsConstants[0].VIEW_NAME] %>';
+			
+		}
+		
+		function commonSubmit(){
+			commonProperties();
+			document.logoutForm.submit();
+			
+		}
+
+	</script>
+	
+
+</html>

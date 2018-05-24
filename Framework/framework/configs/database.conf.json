@@ -1,0 +1,11 @@
+{
+    "host": "localhost",
+    "port": "27017",
+    "dbname": "framework",
+    "username": "frame",
+    "password": "Intel009*",
+    "auth_type": "DEFAULT",
+    "pool_size": "10",
+    "appname": "Framework",
+    "loggerLevel": "info"
+}

@@ -1,0 +1,79 @@
+<!--
+ * @copyright Caliworks & ThoughtExecution
+ * @version 1.0
+ * @date May 2018
+ * @author Rishi Raj Bansal
+-->
+
+
+
+<%
+let baseResponse;
+let errorResponse;
+let responseSuccess = -1;
+let message = "";
+
+
+if (typeof viewResponseData != 'undefined') {
+	if (typeof viewResponseData[viewsConstants[0].RESPONSE_BEAN] != 'undefined'){
+	
+		baseResponse = viewResponseData[viewsConstants[0].RESPONSE_BEAN];
+		
+		if (GenericUtility[0].fn_safeTrim(baseResponse.responseType) !== genericConstants[0].EMPTY_STRING){
+			if (GenericUtility[0].fn_safeTrim(baseResponse.responseType) === (genericConstants[0].RESPONSE_RETURN_TYPE_SUCCESS)){
+				responseSuccess = 1;
+				message = baseResponse.successMessage;
+			}
+			else if (GenericUtility[0].fn_safeTrim(baseResponse.responseType) === (genericConstants[0].RESPONSE_RETURN_TYPE_ERROR)){
+				responseSuccess = 0;
+				message = baseResponse.errorMessage;
+			}
+			else if (GenericUtility[0].fn_safeTrim(baseResponse.responseType) === (genericConstants[0].RESPONSE_RETURN_TYPE_EXCEPTION)){
+				responseSuccess = 2;
+				errorResponse = baseResponse;
+				
+			}
+		}
+		
+	}
+}
+
+%>
+
+
+<% if (responseSuccess == 1 && GenericUtility[0].fn_safeTrim(message) !== genericConstants[0].EMPTY_STRING){ %>
+		<div class="alert alert-primary" style="text-align: center;" role="alert">
+			<h5 style="color: #1886AA;text-align: left"><%= message %></h5>
+		</div>
+		<br/>
+<% } %>
+
+<% if (responseSuccess == 0 && GenericUtility[0].fn_safeTrim(message) !== genericConstants[0].EMPTY_STRING){ %>
+		<div class="alert alert-danger" style="text-align: center;background-color: #fcf8e3;">
+			<h5 style="color: #FF0000;text-align: left;font-weight: normal; word-wrap: break-word;"><%= message %></h5>
+		</div>
+		<br/>
+<% } %>
+
+<% if (responseSuccess == 2){ %>
+		<div>
+			<h4 style="color: #FF0000;">Error Occurred !</h4><br/>
+			<table class="table table-bordered ">
+				<tbody>
+					<tr>
+						<td style="background: #f7f7f7;" width="22%">Code</td>
+						<td style="background: #ffffff"><%= errorResponse.code %></td>
+					</tr>
+					<tr>
+						<td style="background: #f7f7f7;">User Message</td>
+						<td style="background: #ffffff"><%= errorResponse.userMessage %></td>
+					</tr>
+					<tr>
+						<td style="background: #f7f7f7;">System Message</td>
+						<td style="background: #ffffff"><%= errorResponse.errorMessage	 %></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<br/>
+<% } %>

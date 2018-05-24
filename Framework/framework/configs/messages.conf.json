@@ -1,0 +1,15 @@
+{
+	"LOGIN": {
+		"E_LOGIN_INVALID_USERNAME": "Please check the Username",
+
+	    "E_LOGIN_INVALID_PASSWORD": "Invalid password entered."
+	},
+	
+	"HOME": {
+		"E_FILE_UPLOAD_FAILED": "Failed to upload file. ",
+		"S_FILE_UPLOAD_FAILED": "File uploaded Successfully.",
+		"E_FILE_MAX_SIZE": "File size exceeded from allowable limits. ",
+		"E_FILE_INVALID_TYPE": "File type is not valid. "
+	}
+    
+}

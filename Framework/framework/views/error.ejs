@@ -1,0 +1,105 @@
+<!--
+ * @copyright Caliworks & ThoughtExecution
+ * @version 1.0
+ * @date May 2018
+ * @author Rishi Raj Bansal
+-->
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta name="description" content="">
+	    <meta name="author" content="Rishi Raj Bansal">
+	    
+	    <title>Error - <%= al_appName %></title>
+	    
+	    <link rel="stylesheet" href="../css/bootstrap.css" >
+	    <link rel="stylesheet" href="../css/custom.css" >
+	    <link rel="shortcut icon" href="../icons/favicon.ico">
+	    
+	    <style type="text/css">
+	    	.form-horizontal {
+				margin: 0px auto 20px;
+				max-width: 800px;
+			}
+	    </style>
+	    
+	    <script type="text/javascript">
+        
+        </script>
+	
+	</head>
+	
+	<body>
+		
+		<%- include header.ejs %>
+		
+		<main role="main">
+				
+			<div class="container" style="padding-top: 30px; min-height: 600px;">
+			
+				<form id="errorForm" name="errorForm" method="post" action="<%= al_appRootContext %>" >
+				
+					<input type="hidden" id="<%= viewsConstants[0].CSURF_PARAM_NAME %>" name="<%= viewsConstants[0].CSURF_PARAM_NAME %>" value="<%= rl_csurfToken %>">
+					<input type="hidden" id="<%= viewsConstants[0].VIEW_NAME %>" name="<%= viewsConstants[0].VIEW_NAME %>" >
+					<input type="hidden" id="<%= viewsConstants[0].PARAM_ACTION %>" name="<%= viewsConstants[0].PARAM_ACTION %>" >
+					<input type="hidden" id="<%= viewsConstants[0].PARAM_ACTION_METHOD %>" name="<%= viewsConstants[0].PARAM_ACTION_METHOD %>" >
+			        
+			        <p class="lead">
+						<h2 style="color: #FF0000;text-align:center;" >Error ! </h2>
+					</p>
+					<br/>
+					
+					<div>
+						<h4>Error Details :</h4>
+						<table class="table table-bordered">
+							<tbody>
+								<tr>
+									<td style="background: #f7f7f7;" width="20%">Code</td>
+									<td><%= viewResponseData[viewsConstants[0].RESPONSE_BEAN].code %></td>
+								</tr>
+								<tr>
+									<td style="background: #f7f7f7;">User Message</td>
+									<td><%= viewResponseData[viewsConstants[0].RESPONSE_BEAN].userMessage %></td>
+								</tr>
+								<tr>
+									<td style="background: #f7f7f7;">System Message</td>
+									<td><%= viewResponseData[viewsConstants[0].RESPONSE_BEAN].errorMessage %></td>
+								</tr>
+								<% if (al_showStackTrace === genericConstants[0].STRING_TRUE){ %>
+									<tr>
+										<td style="background: #f7f7f7;">Stack Trace</td>
+										<td><%= viewResponseData[viewsConstants[0].RESPONSE_BEAN].stack %></td>
+									</tr>
+								<% } %>
+								
+							</tbody>
+						</table>
+					</div>
+					
+				</form>
+			
+			</div>
+		
+		</main>
+	
+		<%- include footer.ejs %>
+	
+	</body>
+	
+	<script type="text/javascript">
+	
+		function commonSubmit(){
+	
+			document.getElementById('<%= viewsConstants[0].VIEW_NAME %>').value 			= '<%= viewResponseData[viewsConstants[0].VIEW_NAME] %>';
+	
+			document.errorForm.submit();
+			
+		}
+		
+	</script>
+	
+
+</html>

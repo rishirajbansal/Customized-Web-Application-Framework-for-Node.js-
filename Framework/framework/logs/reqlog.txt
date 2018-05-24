@@ -1,0 +1,616 @@
+[REQ] [2018-05-13 13:16:26,239] GET / 200 4528 - 27.447 ms
+[REQ] [2018-05-13 13:16:26,361] GET /css/bootstrap.css 304  - 2.736 ms
+[REQ] [2018-05-13 13:16:26,366] GET /css/custom.css 304  - 0.950 ms
+[REQ] [2018-05-13 13:16:26,371] GET /images/TE.png 304  - 1.318 ms
+[REQ] [2018-05-13 13:16:26,374] GET /js/jquery-3.3.1.slim.min.js 304  - 0.728 ms
+[REQ] [2018-05-13 13:16:26,378] GET /js/popper.js 304  - 0.725 ms
+[REQ] [2018-05-13 13:16:26,381] GET /js/bootstrap.js 304  - 0.660 ms
+[REQ] [2018-05-13 13:16:26,385] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.063 ms
+[REQ] [2018-05-13 13:16:26,395] GET /js/functions.js 304  - 0.907 ms
+[REQ] [2018-05-13 13:16:26,444] GET /js/jquery-3.3.1.slim.min.js 304  - 1.954 ms
+[REQ] [2018-05-13 13:16:26,448] GET /js/popper.js 304  - 0.698 ms
+[REQ] [2018-05-13 13:16:26,453] GET /js/bootstrap.js 304  - 1.197 ms
+[REQ] [2018-05-13 13:16:26,458] GET /js/functions.js 304  - 0.907 ms
+[REQ] [2018-05-13 13:16:26,462] GET /images/TE.png 304  - 0.936 ms
+[REQ] [2018-05-13 13:16:26,466] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.882 ms
+[REQ] [2018-05-13 13:16:26,568] GET /js/bootstrap.js.map 304  - 0.898 ms
+[REQ] [2018-05-13 13:16:26,574] GET /css/bootstrap.css.map 304  - 1.058 ms
+[REQ] [2018-05-13 13:26:26,39] GET / 200 4528 - 13.351 ms
+[REQ] [2018-05-13 13:26:26,63] GET /css/bootstrap.css 304  - 1.485 ms
+[REQ] [2018-05-13 13:26:26,63] GET /css/custom.css 304  - 1.839 ms
+[REQ] [2018-05-13 13:26:26,80] GET /js/jquery-3.3.1.slim.min.js 304  - 9.485 ms
+[REQ] [2018-05-13 13:26:26,81] GET /js/popper.js 304  - 2.184 ms
+[REQ] [2018-05-13 13:26:26,81] GET /js/bootstrap.js 304  - 1.584 ms
+[REQ] [2018-05-13 13:26:26,93] GET /js/functions.js 304  - 2.577 ms
+[REQ] [2018-05-13 13:26:26,95] GET /images/TE.png 304  - 2.135 ms
+[REQ] [2018-05-13 13:26:26,96] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.654 ms
+[REQ] [2018-05-13 14:27:10,978] GET / 200 4528 - 22.243 ms
+[REQ] [2018-05-13 14:27:34,537] GET / 200 4528 - 13.732 ms
+[REQ] [2018-05-13 14:27:45,487] GET / 200 4528 - 10.184 ms
+[REQ] [2018-05-13 14:27:46,325] GET / 200 4528 - 18.754 ms
+[REQ] [2018-05-13 14:28:21,484] GET / 200 4528 - 17.202 ms
+[REQ] [2018-05-13 14:28:21,507] GET /css/custom.css 200 342 - 3.670 ms
+[REQ] [2018-05-13 14:28:21,509] GET /css/bootstrap.css 200 172839 - 3.799 ms
+[REQ] [2018-05-13 14:28:21,518] GET /js/jquery-3.3.1.slim.min.js 200 69917 - 1.150 ms
+[REQ] [2018-05-13 14:28:21,529] GET /js/popper.js 200 87099 - 1.408 ms
+[REQ] [2018-05-13 14:28:21,540] GET /js/bootstrap.js 200 122441 - 2.074 ms
+[REQ] [2018-05-13 14:28:21,566] GET /js/functions.js 200 0 - 2.141 ms
+[REQ] [2018-05-13 14:28:21,566] GET /images/TE.png 200 1019 - 1.314 ms
+[REQ] [2018-05-13 14:28:21,614] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 200 803834 - 1.738 ms
+[REQ] [2018-05-13 14:28:21,636] GET /js/bootstrap.js.map 200 212918 - 1.545 ms
+[REQ] [2018-05-13 14:28:21,654] GET /css/bootstrap.css.map 200 425225 - 1.848 ms
+[REQ] [2018-05-13 14:28:21,728] GET /icons/favicon.ico 200 4086 - 1.083 ms
+[REQ] [2018-05-13 14:28:33,12] POST /node 200 7716 - 25.713 ms
+[REQ] [2018-05-13 14:28:33,31] GET /css/bootstrap.css 304  - 2.216 ms
+[REQ] [2018-05-13 14:28:33,33] GET /css/custom.css 304  - 1.469 ms
+[REQ] [2018-05-13 14:28:33,41] GET /js/jquery-3.3.1.slim.min.js 304  - 1.598 ms
+[REQ] [2018-05-13 14:28:33,45] GET /js/popper.js 304  - 0.760 ms
+[REQ] [2018-05-13 14:28:33,49] GET /js/bootstrap.js 304  - 0.705 ms
+[REQ] [2018-05-13 14:28:33,53] GET /js/functions.js 304  - 0.761 ms
+[REQ] [2018-05-13 14:28:33,62] GET /images/TE.png 304  - 2.594 ms
+[REQ] [2018-05-13 14:28:33,67] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.986 ms
+[REQ] [2018-05-13 14:28:33,169] GET /js/bootstrap.js.map 304  - 0.789 ms
+[REQ] [2018-05-13 14:28:33,171] GET /css/bootstrap.css.map 304  - 0.774 ms
+[REQ] [2018-05-13 14:28:36,239] POST /node 200 8931 - 45.460 ms
+[REQ] [2018-05-13 14:28:36,280] GET /css/bootstrap.css 304  - 2.073 ms
+[REQ] [2018-05-13 14:28:36,283] GET /css/custom.css 304  - 3.781 ms
+[REQ] [2018-05-13 14:28:36,289] GET /js/jquery-3.3.1.slim.min.js 304  - 1.262 ms
+[REQ] [2018-05-13 14:28:36,295] GET /js/popper.js 304  - 1.650 ms
+[REQ] [2018-05-13 14:28:36,307] GET /js/bootstrap.js 304  - 3.617 ms
+[REQ] [2018-05-13 14:28:36,317] GET /js/functions.js 304  - 4.450 ms
+[REQ] [2018-05-13 14:28:36,320] GET /images/TE.png 304  - 5.659 ms
+[REQ] [2018-05-13 14:28:36,324] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.596 ms
+[REQ] [2018-05-13 14:28:36,359] GET /js/bootstrap.js.map 304  - 0.776 ms
+[REQ] [2018-05-13 14:28:36,393] GET /css/bootstrap.css.map 304  - 0.985 ms
+[REQ] [2018-05-13 14:28:41,415] POST /node 200 9111 - 39.004 ms
+[REQ] [2018-05-13 14:28:41,435] GET /css/bootstrap.css 304  - 2.743 ms
+[REQ] [2018-05-13 14:28:41,435] GET /css/custom.css 304  - 2.124 ms
+[REQ] [2018-05-13 14:28:41,448] GET /js/jquery-3.3.1.slim.min.js 304  - 1.306 ms
+[REQ] [2018-05-13 14:28:41,456] GET /js/popper.js 304  - 2.572 ms
+[REQ] [2018-05-13 14:28:41,461] GET /js/bootstrap.js 304  - 0.795 ms
+[REQ] [2018-05-13 14:28:41,466] GET /js/functions.js 304  - 1.177 ms
+[REQ] [2018-05-13 14:28:41,472] GET /images/TE.png 304  - 1.053 ms
+[REQ] [2018-05-13 14:28:41,477] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.922 ms
+[REQ] [2018-05-13 14:28:41,571] GET /js/bootstrap.js.map 304  - 0.842 ms
+[REQ] [2018-05-13 14:28:41,579] GET /css/bootstrap.css.map 304  - 0.889 ms
+[REQ] [2018-05-13 14:28:42,669] POST /node 200 196134 - 15.984 ms
+[REQ] [2018-05-13 14:28:44,825] POST /node 200 6044 - 14.465 ms
+[REQ] [2018-05-13 14:28:44,844] GET /css/bootstrap.css 304  - 1.321 ms
+[REQ] [2018-05-13 14:28:44,845] GET /css/custom.css 304  - 1.654 ms
+[REQ] [2018-05-13 14:28:44,851] GET /js/jquery-3.3.1.slim.min.js 304  - 1.236 ms
+[REQ] [2018-05-13 14:28:44,860] GET /js/popper.js 304  - 1.300 ms
+[REQ] [2018-05-13 14:28:44,865] GET /js/bootstrap.js 304  - 0.910 ms
+[REQ] [2018-05-13 14:28:44,871] GET /js/functions.js 304  - 1.243 ms
+[REQ] [2018-05-13 14:28:44,878] GET /images/TE.png 304  - 2.050 ms
+[REQ] [2018-05-13 14:28:44,882] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.780 ms
+[REQ] [2018-05-13 14:28:44,977] GET /js/bootstrap.js.map 304  - 0.664 ms
+[REQ] [2018-05-13 14:28:44,983] GET /css/bootstrap.css.map 304  - 0.858 ms
+[REQ] [2018-05-13 14:28:46,251] POST /node 200 4528 - 6.330 ms
+[REQ] [2018-05-13 14:28:46,267] GET /css/bootstrap.css 304  - 2.147 ms
+[REQ] [2018-05-13 14:28:46,268] GET /css/custom.css 304  - 2.106 ms
+[REQ] [2018-05-13 14:28:46,287] GET /js/jquery-3.3.1.slim.min.js 304  - 2.203 ms
+[REQ] [2018-05-13 14:28:46,290] GET /js/popper.js 304  - 0.640 ms
+[REQ] [2018-05-13 14:28:46,295] GET /js/bootstrap.js 304  - 1.882 ms
+[REQ] [2018-05-13 14:28:46,301] GET /js/functions.js 304  - 1.083 ms
+[REQ] [2018-05-13 14:28:46,305] GET /images/TE.png 304  - 1.294 ms
+[REQ] [2018-05-13 14:28:46,312] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 2.030 ms
+[REQ] [2018-05-13 14:28:46,349] GET /js/bootstrap.js.map 304  - 0.754 ms
+[REQ] [2018-05-13 14:28:46,401] GET /css/bootstrap.css.map 304  - 0.680 ms
+[REQ] [2018-05-13 14:30:45,53] GET / 200 4528 - 7.108 ms
+[REQ] [2018-05-13 14:30:45,233] GET /css/custom.css 200 342 - 1.838 ms
+[REQ] [2018-05-13 14:30:45,234] GET /css/bootstrap.css 200 172839 - 2.387 ms
+[REQ] [2018-05-13 14:30:45,244] GET /js/jquery-3.3.1.slim.min.js 200 69917 - 1.521 ms
+[REQ] [2018-05-13 14:30:45,262] GET /js/popper.js 200 87099 - 1.212 ms
+[REQ] [2018-05-13 14:30:45,269] GET /js/bootstrap.js 200 122441 - 0.891 ms
+[REQ] [2018-05-13 14:30:45,277] GET /js/functions.js 200 0 - 2.293 ms
+[REQ] [2018-05-13 14:30:45,282] GET /images/TE.png 200 1019 - 0.816 ms
+[REQ] [2018-05-13 14:30:45,293] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 200 803834 - 0.859 ms
+[REQ] [2018-05-13 14:30:45,370] GET /css/bootstrap.css.map 200 425225 - 1.007 ms
+[REQ] [2018-05-13 14:30:45,383] GET /js/bootstrap.js.map 200 212918 - 1.050 ms
+[REQ] [2018-05-13 14:30:45,482] GET /icons/favicon.ico 200 4086 - 0.845 ms
+[REQ] [2018-05-13 14:30:49,75] POST /node 200 7716 - 16.142 ms
+[REQ] [2018-05-13 14:30:49,95] GET /css/bootstrap.css 304  - 2.996 ms
+[REQ] [2018-05-13 14:30:49,95] GET /css/custom.css 304  - 2.572 ms
+[REQ] [2018-05-13 14:30:49,99] GET /js/jquery-3.3.1.slim.min.js 304  - 0.680 ms
+[REQ] [2018-05-13 14:30:49,105] GET /js/popper.js 304  - 2.766 ms
+[REQ] [2018-05-13 14:30:49,109] GET /js/bootstrap.js 304  - 0.987 ms
+[REQ] [2018-05-13 14:30:49,115] GET /js/functions.js 304  - 0.873 ms
+[REQ] [2018-05-13 14:30:49,120] GET /images/TE.png 304  - 1.316 ms
+[REQ] [2018-05-13 14:30:49,125] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.914 ms
+[REQ] [2018-05-13 14:30:49,231] GET /js/bootstrap.js.map 304  - 0.715 ms
+[REQ] [2018-05-13 14:30:49,232] GET /css/bootstrap.css.map 304  - 0.586 ms
+[REQ] [2018-05-13 14:30:55,927] POST /node 200 4528 - 14.838 ms
+[REQ] [2018-05-13 14:30:55,945] GET /css/bootstrap.css 304  - 2.083 ms
+[REQ] [2018-05-13 14:30:55,948] GET /css/custom.css 304  - 1.408 ms
+[REQ] [2018-05-13 14:30:55,949] GET /images/TE.png 304  - 1.722 ms
+[REQ] [2018-05-13 14:30:55,956] GET /js/jquery-3.3.1.slim.min.js 304  - 0.762 ms
+[REQ] [2018-05-13 14:30:55,960] GET /js/popper.js 304  - 2.065 ms
+[REQ] [2018-05-13 14:30:55,970] GET /js/bootstrap.js 304  - 0.848 ms
+[REQ] [2018-05-13 14:30:55,973] GET /js/functions.js 304  - 0.899 ms
+[REQ] [2018-05-13 14:30:55,979] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.138 ms
+[REQ] [2018-05-13 14:30:56,62] GET /js/bootstrap.js.map 304  - 2.133 ms
+[REQ] [2018-05-13 14:30:56,63] GET /css/bootstrap.css.map 304  - 1.385 ms
+[REQ] [2018-05-13 14:30:57,595] POST /node 200 7716 - 6.609 ms
+[REQ] [2018-05-13 14:30:57,611] GET /css/bootstrap.css 304  - 1.033 ms
+[REQ] [2018-05-13 14:30:57,612] GET /css/custom.css 304  - 2.471 ms
+[REQ] [2018-05-13 14:30:57,617] GET /js/jquery-3.3.1.slim.min.js 304  - 1.117 ms
+[REQ] [2018-05-13 14:30:57,623] GET /js/popper.js 304  - 1.591 ms
+[REQ] [2018-05-13 14:30:57,630] GET /js/bootstrap.js 304  - 1.008 ms
+[REQ] [2018-05-13 14:30:57,635] GET /js/functions.js 304  - 0.716 ms
+[REQ] [2018-05-13 14:30:57,638] GET /images/TE.png 304  - 0.716 ms
+[REQ] [2018-05-13 14:30:57,642] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.755 ms
+[REQ] [2018-05-13 14:30:57,737] GET /js/bootstrap.js.map 304  - 0.801 ms
+[REQ] [2018-05-13 14:30:57,739] GET /css/bootstrap.css.map 304  - 0.859 ms
+[REQ] [2018-05-13 14:31:00,982] POST /node 200 4528 - 9.330 ms
+[REQ] [2018-05-13 14:31:00,999] GET /css/custom.css 304  - 0.723 ms
+[REQ] [2018-05-13 14:31:01,01] GET /css/bootstrap.css 304  - 3.159 ms
+[REQ] [2018-05-13 14:31:01,09] GET /js/jquery-3.3.1.slim.min.js 304  - 0.886 ms
+[REQ] [2018-05-13 14:31:01,14] GET /js/popper.js 304  - 0.715 ms
+[REQ] [2018-05-13 14:31:01,18] GET /js/bootstrap.js 304  - 1.275 ms
+[REQ] [2018-05-13 14:31:01,27] GET /js/functions.js 304  - 1.195 ms
+[REQ] [2018-05-13 14:31:01,33] GET /images/TE.png 304  - 0.782 ms
+[REQ] [2018-05-13 14:31:01,37] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.828 ms
+[REQ] [2018-05-13 14:31:01,123] GET /js/bootstrap.js.map 304  - 1.057 ms
+[REQ] [2018-05-13 14:31:01,127] GET /css/bootstrap.css.map 304  - 0.770 ms
+[REQ] [2018-05-13 14:31:02,808] POST /node 200 7716 - 9.798 ms
+[REQ] [2018-05-13 14:31:02,830] GET /css/bootstrap.css 304  - 1.531 ms
+[REQ] [2018-05-13 14:31:02,830] GET /css/custom.css 304  - 1.617 ms
+[REQ] [2018-05-13 14:31:02,837] GET /js/jquery-3.3.1.slim.min.js 304  - 0.899 ms
+[REQ] [2018-05-13 14:31:02,848] GET /js/popper.js 304  - 1.817 ms
+[REQ] [2018-05-13 14:31:02,854] GET /js/bootstrap.js 304  - 1.025 ms
+[REQ] [2018-05-13 14:31:02,862] GET /js/functions.js 304  - 3.603 ms
+[REQ] [2018-05-13 14:31:02,869] GET /images/TE.png 304  - 1.609 ms
+[REQ] [2018-05-13 14:31:02,879] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 4.396 ms
+[REQ] [2018-05-13 14:31:02,961] GET /js/bootstrap.js.map 304  - 0.822 ms
+[REQ] [2018-05-13 14:31:02,963] GET /css/bootstrap.css.map 304  - 0.696 ms
+[REQ] [2018-05-13 14:31:04,42] POST /node 200 4528 - 7.656 ms
+[REQ] [2018-05-13 14:31:04,60] GET /css/bootstrap.css 304  - 1.142 ms
+[REQ] [2018-05-13 14:31:04,64] GET /css/custom.css 304  - 1.773 ms
+[REQ] [2018-05-13 14:31:04,73] GET /js/jquery-3.3.1.slim.min.js 304  - 1.052 ms
+[REQ] [2018-05-13 14:31:04,84] GET /js/popper.js 304  - 2.080 ms
+[REQ] [2018-05-13 14:31:04,88] GET /js/bootstrap.js 304  - 2.381 ms
+[REQ] [2018-05-13 14:31:04,91] GET /js/functions.js 304  - 0.710 ms
+[REQ] [2018-05-13 14:31:04,96] GET /images/TE.png 304  - 0.962 ms
+[REQ] [2018-05-13 14:31:04,102] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.262 ms
+[REQ] [2018-05-13 14:31:04,192] GET /js/bootstrap.js.map 304  - 0.779 ms
+[REQ] [2018-05-13 14:31:04,197] GET /css/bootstrap.css.map 304  - 1.196 ms
+[REQ] [2018-05-13 14:31:07,184] GET / 200 4528 - 6.416 ms
+[REQ] [2018-05-13 14:31:07,202] GET /css/bootstrap.css 304  - 0.930 ms
+[REQ] [2018-05-13 14:31:07,203] GET /css/custom.css 304  - 1.012 ms
+[REQ] [2018-05-13 14:31:07,212] GET /js/jquery-3.3.1.slim.min.js 304  - 3.983 ms
+[REQ] [2018-05-13 14:31:07,234] GET /js/popper.js 304  - 1.917 ms
+[REQ] [2018-05-13 14:31:07,244] GET /js/bootstrap.js 304  - 4.557 ms
+[REQ] [2018-05-13 14:31:07,250] GET /js/functions.js 304  - 0.724 ms
+[REQ] [2018-05-13 14:31:07,256] GET /images/TE.png 304  - 1.762 ms
+[REQ] [2018-05-13 14:31:07,262] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.348 ms
+[REQ] [2018-05-13 14:31:07,307] GET /js/bootstrap.js.map 304  - 0.711 ms
+[REQ] [2018-05-13 14:31:07,346] GET /css/bootstrap.css.map 304  - 0.738 ms
+[REQ] [2018-05-13 14:36:20,687] POST /node 200 4528 - 11.146 ms
+[REQ] [2018-05-13 14:36:20,714] GET /css/bootstrap.css 304  - 1.025 ms
+[REQ] [2018-05-13 14:36:20,747] GET /css/custom.css 304  - 30.382 ms
+[REQ] [2018-05-13 14:36:20,751] GET /js/jquery-3.3.1.slim.min.js 304  - 1.065 ms
+[REQ] [2018-05-13 14:36:20,761] GET /js/popper.js 304  - 5.366 ms
+[REQ] [2018-05-13 14:36:20,769] GET /js/bootstrap.js 304  - 2.161 ms
+[REQ] [2018-05-13 14:36:20,780] GET /js/functions.js 304  - 1.218 ms
+[REQ] [2018-05-13 14:36:20,786] GET /images/TE.png 304  - 4.984 ms
+[REQ] [2018-05-13 14:36:20,787] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 5.052 ms
+[REQ] [2018-05-13 14:36:20,820] GET /js/bootstrap.js.map 304  - 1.217 ms
+[REQ] [2018-05-13 14:36:20,841] GET /css/bootstrap.css.map 304  - 0.658 ms
+[REQ] [2018-05-13 14:36:22,206] POST /node 200 7716 - 17.346 ms
+[REQ] [2018-05-13 14:36:22,237] GET /css/bootstrap.css 304  - 1.717 ms
+[REQ] [2018-05-13 14:36:22,238] GET /css/custom.css 304  - 2.166 ms
+[REQ] [2018-05-13 14:36:22,240] GET /images/TE.png 304  - 1.388 ms
+[REQ] [2018-05-13 14:36:22,243] GET /js/jquery-3.3.1.slim.min.js 304  - 2.051 ms
+[REQ] [2018-05-13 14:36:22,248] GET /js/popper.js 304  - 0.859 ms
+[REQ] [2018-05-13 14:36:22,264] GET /js/bootstrap.js 304  - 1.046 ms
+[REQ] [2018-05-13 14:36:22,268] GET /js/functions.js 304  - 0.722 ms
+[REQ] [2018-05-13 14:36:22,272] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.858 ms
+[REQ] [2018-05-13 14:36:22,367] GET /js/bootstrap.js.map 304  - 0.715 ms
+[REQ] [2018-05-13 14:36:22,370] GET /css/bootstrap.css.map 304  - 0.847 ms
+[REQ] [2018-05-13 14:36:24,586] POST /node 200 8384 - 23.891 ms
+[REQ] [2018-05-13 14:36:24,609] GET /css/bootstrap.css 304  - 4.343 ms
+[REQ] [2018-05-13 14:36:24,619] GET /css/custom.css 304  - 1.339 ms
+[REQ] [2018-05-13 14:36:24,625] GET /js/jquery-3.3.1.slim.min.js 304  - 0.836 ms
+[REQ] [2018-05-13 14:36:24,636] GET /js/popper.js 304  - 1.422 ms
+[REQ] [2018-05-13 14:36:24,664] GET /js/bootstrap.js 304  - 1.018 ms
+[REQ] [2018-05-13 14:36:24,668] GET /js/functions.js 304  - 2.992 ms
+[REQ] [2018-05-13 14:36:24,669] GET /images/TE.png 304  - 2.777 ms
+[REQ] [2018-05-13 14:36:24,671] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 4.934 ms
+[REQ] [2018-05-13 14:36:24,700] GET /css/bootstrap.css.map 304  - 0.810 ms
+[REQ] [2018-05-13 14:36:24,723] GET /js/bootstrap.js.map 304  - 0.844 ms
+[REQ] [2018-05-13 14:36:26,555] POST /node 200 4528 - 21.739 ms
+[REQ] [2018-05-13 14:36:26,577] GET /css/bootstrap.css 304  - 2.211 ms
+[REQ] [2018-05-13 14:36:26,578] GET /css/custom.css 304  - 2.265 ms
+[REQ] [2018-05-13 14:36:26,582] GET /js/jquery-3.3.1.slim.min.js 304  - 0.711 ms
+[REQ] [2018-05-13 14:36:26,591] GET /js/popper.js 304  - 2.136 ms
+[REQ] [2018-05-13 14:36:26,597] GET /js/bootstrap.js 304  - 1.585 ms
+[REQ] [2018-05-13 14:36:26,601] GET /js/functions.js 304  - 0.784 ms
+[REQ] [2018-05-13 14:36:26,607] GET /images/TE.png 304  - 1.733 ms
+[REQ] [2018-05-13 14:36:26,616] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.716 ms
+[REQ] [2018-05-13 14:36:26,657] GET /js/bootstrap.js.map 304  - 0.655 ms
+[REQ] [2018-05-13 14:36:26,696] GET /css/bootstrap.css.map 304  - 0.676 ms
+[REQ] [2018-05-13 14:36:28,890] POST /node 200 7716 - 9.876 ms
+[REQ] [2018-05-13 14:36:28,910] GET /css/bootstrap.css 304  - 2.155 ms
+[REQ] [2018-05-13 14:36:28,923] GET /css/custom.css 304  - 11.041 ms
+[REQ] [2018-05-13 14:36:28,924] GET /js/jquery-3.3.1.slim.min.js 304  - 4.076 ms
+[REQ] [2018-05-13 14:36:28,932] GET /js/popper.js 304  - 1.133 ms
+[REQ] [2018-05-13 14:36:28,938] GET /js/bootstrap.js 304  - 1.206 ms
+[REQ] [2018-05-13 14:36:28,942] GET /js/functions.js 304  - 0.826 ms
+[REQ] [2018-05-13 14:36:28,948] GET /images/TE.png 304  - 1.146 ms
+[REQ] [2018-05-13 14:36:28,953] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.804 ms
+[REQ] [2018-05-13 14:36:29,36] GET /js/bootstrap.js.map 304  - 0.923 ms
+[REQ] [2018-05-13 14:36:29,38] GET /css/bootstrap.css.map 304  - 0.823 ms
+[REQ] [2018-05-13 14:36:30,801] POST /node 200 4528 - 5.421 ms
+[REQ] [2018-05-13 14:36:30,823] GET /css/bootstrap.css 304  - 1.574 ms
+[REQ] [2018-05-13 14:36:30,841] GET /css/custom.css 304  - 13.537 ms
+[REQ] [2018-05-13 14:36:30,844] GET /js/jquery-3.3.1.slim.min.js 304  - 0.794 ms
+[REQ] [2018-05-13 14:36:30,848] GET /js/popper.js 304  - 0.970 ms
+[REQ] [2018-05-13 14:36:30,856] GET /js/bootstrap.js 304  - 2.368 ms
+[REQ] [2018-05-13 14:36:30,860] GET /js/functions.js 304  - 0.716 ms
+[REQ] [2018-05-13 14:36:30,864] GET /images/TE.png 304  - 0.801 ms
+[REQ] [2018-05-13 14:36:30,872] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.174 ms
+[REQ] [2018-05-13 14:36:30,910] GET /js/bootstrap.js.map 304  - 0.673 ms
+[REQ] [2018-05-13 14:36:30,956] GET /css/bootstrap.css.map 304  - 0.717 ms
+[REQ] [2018-05-13 14:36:32,974] POST /node 200 7716 - 10.638 ms
+[REQ] [2018-05-13 14:36:32,998] GET /css/bootstrap.css 304  - 4.356 ms
+[REQ] [2018-05-13 14:36:32,998] GET /css/custom.css 304  - 3.938 ms
+[REQ] [2018-05-13 14:36:33,14] GET /js/jquery-3.3.1.slim.min.js 304  - 0.774 ms
+[REQ] [2018-05-13 14:36:33,20] GET /js/popper.js 304  - 1.339 ms
+[REQ] [2018-05-13 14:36:33,32] GET /js/bootstrap.js 304  - 1.406 ms
+[REQ] [2018-05-13 14:36:33,36] GET /js/functions.js 304  - 0.880 ms
+[REQ] [2018-05-13 14:36:33,43] GET /images/TE.png 304  - 1.268 ms
+[REQ] [2018-05-13 14:36:33,46] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.143 ms
+[REQ] [2018-05-13 14:36:33,81] GET /js/bootstrap.js.map 304  - 0.743 ms
+[REQ] [2018-05-13 14:36:33,96] GET /css/bootstrap.css.map 304  - 0.695 ms
+[REQ] [2018-05-13 14:36:40,431] POST /node 200 4528 - 10.411 ms
+[REQ] [2018-05-13 14:36:40,450] GET /css/bootstrap.css 304  - 1.664 ms
+[REQ] [2018-05-13 14:36:40,451] GET /css/custom.css 304  - 1.498 ms
+[REQ] [2018-05-13 14:36:40,468] GET /js/jquery-3.3.1.slim.min.js 304  - 0.706 ms
+[REQ] [2018-05-13 14:36:40,473] GET /js/popper.js 304  - 1.114 ms
+[REQ] [2018-05-13 14:36:40,478] GET /js/bootstrap.js 304  - 1.681 ms
+[REQ] [2018-05-13 14:36:40,485] GET /js/functions.js 304  - 1.092 ms
+[REQ] [2018-05-13 14:36:40,489] GET /images/TE.png 304  - 0.855 ms
+[REQ] [2018-05-13 14:36:40,492] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.915 ms
+[REQ] [2018-05-13 14:36:40,596] GET /js/bootstrap.js.map 304  - 0.835 ms
+[REQ] [2018-05-13 14:36:40,606] GET /css/bootstrap.css.map 304  - 0.985 ms
+[REQ] [2018-05-13 14:36:43,277] POST /node 200 4528 - 10.099 ms
+[REQ] [2018-05-13 14:36:43,292] GET /css/bootstrap.css 304  - 1.274 ms
+[REQ] [2018-05-13 14:36:43,293] GET /css/custom.css 304  - 1.238 ms
+[REQ] [2018-05-13 14:36:43,297] GET /js/jquery-3.3.1.slim.min.js 304  - 0.707 ms
+[REQ] [2018-05-13 14:36:43,300] GET /js/popper.js 304  - 0.825 ms
+[REQ] [2018-05-13 14:36:43,324] GET /js/bootstrap.js 304  - 19.410 ms
+[REQ] [2018-05-13 14:36:43,329] GET /js/functions.js 304  - 0.932 ms
+[REQ] [2018-05-13 14:36:43,333] GET /images/TE.png 304  - 0.965 ms
+[REQ] [2018-05-13 14:36:43,338] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.111 ms
+[REQ] [2018-05-13 14:36:43,422] GET /js/bootstrap.js.map 304  - 1.698 ms
+[REQ] [2018-05-13 14:36:43,429] GET /css/bootstrap.css.map 304  - 0.788 ms
+[REQ] [2018-05-13 14:36:43,838] POST /node 200 7716 - 5.936 ms
+[REQ] [2018-05-13 14:36:43,856] GET /css/bootstrap.css 304  - 2.119 ms
+[REQ] [2018-05-13 14:36:43,858] GET /css/custom.css 304  - 2.376 ms
+[REQ] [2018-05-13 14:36:43,863] GET /js/jquery-3.3.1.slim.min.js 304  - 1.036 ms
+[REQ] [2018-05-13 14:36:43,867] GET /js/popper.js 304  - 0.989 ms
+[REQ] [2018-05-13 14:36:43,872] GET /js/bootstrap.js 304  - 1.563 ms
+[REQ] [2018-05-13 14:36:43,878] GET /js/functions.js 304  - 1.899 ms
+[REQ] [2018-05-13 14:36:43,881] GET /images/TE.png 304  - 0.705 ms
+[REQ] [2018-05-13 14:36:43,886] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.472 ms
+[REQ] [2018-05-13 14:36:43,929] GET /css/bootstrap.css.map 304  - 0.882 ms
+[REQ] [2018-05-13 14:36:43,997] GET /js/bootstrap.js.map 304  - 0.746 ms
+[REQ] [2018-05-13 14:37:04,587] POST /node 200 8931 - 24.745 ms
+[REQ] [2018-05-13 14:37:04,608] GET /css/bootstrap.css 304  - 0.873 ms
+[REQ] [2018-05-13 14:37:04,610] GET /css/custom.css 304  - 0.804 ms
+[REQ] [2018-05-13 14:37:04,621] GET /js/jquery-3.3.1.slim.min.js 304  - 1.195 ms
+[REQ] [2018-05-13 14:37:04,627] GET /js/popper.js 304  - 0.952 ms
+[REQ] [2018-05-13 14:37:04,633] GET /js/bootstrap.js 304  - 1.985 ms
+[REQ] [2018-05-13 14:37:04,641] GET /js/functions.js 304  - 2.274 ms
+[REQ] [2018-05-13 14:37:04,649] GET /images/TE.png 304  - 1.305 ms
+[REQ] [2018-05-13 14:37:04,655] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.729 ms
+[REQ] [2018-05-13 14:37:04,755] GET /js/bootstrap.js.map 304  - 0.632 ms
+[REQ] [2018-05-13 14:37:04,762] GET /css/bootstrap.css.map 304  - 0.662 ms
+[REQ] [2018-05-13 14:37:13,214] POST /node 200 9182 - 321.751 ms
+[REQ] [2018-05-13 14:37:13,234] GET /css/bootstrap.css 304  - 2.323 ms
+[REQ] [2018-05-13 14:37:13,235] GET /css/custom.css 304  - 1.745 ms
+[REQ] [2018-05-13 14:37:13,242] GET /js/jquery-3.3.1.slim.min.js 304  - 3.818 ms
+[REQ] [2018-05-13 14:37:13,248] GET /js/popper.js 304  - 1.140 ms
+[REQ] [2018-05-13 14:37:13,254] GET /js/bootstrap.js 304  - 1.388 ms
+[REQ] [2018-05-13 14:37:13,261] GET /js/functions.js 304  - 1.034 ms
+[REQ] [2018-05-13 14:37:13,265] GET /images/TE.png 304  - 0.976 ms
+[REQ] [2018-05-13 14:37:13,269] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.761 ms
+[REQ] [2018-05-13 14:37:13,362] GET /js/bootstrap.js.map 304  - 0.669 ms
+[REQ] [2018-05-13 14:37:13,365] GET /css/bootstrap.css.map 304  - 0.798 ms
+[REQ] [2018-05-13 14:37:24,825] POST /node 200 9164 - 21.341 ms
+[REQ] [2018-05-13 14:37:24,857] GET /css/bootstrap.css 304  - 1.386 ms
+[REQ] [2018-05-13 14:37:24,857] GET /css/custom.css 304  - 2.755 ms
+[REQ] [2018-05-13 14:37:24,862] GET /js/jquery-3.3.1.slim.min.js 304  - 1.093 ms
+[REQ] [2018-05-13 14:37:24,867] GET /js/popper.js 304  - 0.868 ms
+[REQ] [2018-05-13 14:37:24,873] GET /js/bootstrap.js 304  - 1.103 ms
+[REQ] [2018-05-13 14:37:24,880] GET /js/functions.js 304  - 1.184 ms
+[REQ] [2018-05-13 14:37:24,890] GET /images/TE.png 304  - 3.094 ms
+[REQ] [2018-05-13 14:37:24,900] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.668 ms
+[REQ] [2018-05-13 14:37:24,993] GET /js/bootstrap.js.map 304  - 0.714 ms
+[REQ] [2018-05-13 14:37:24,999] GET /css/bootstrap.css.map 304  - 1.413 ms
+[REQ] [2018-05-13 14:37:28,528] POST /node 200 6044 - 11.541 ms
+[REQ] [2018-05-13 14:37:28,545] GET /css/bootstrap.css 304  - 1.144 ms
+[REQ] [2018-05-13 14:37:28,546] GET /css/custom.css 304  - 1.239 ms
+[REQ] [2018-05-13 14:37:28,554] GET /js/jquery-3.3.1.slim.min.js 304  - 3.940 ms
+[REQ] [2018-05-13 14:37:28,560] GET /js/popper.js 304  - 1.181 ms
+[REQ] [2018-05-13 14:37:28,572] GET /js/bootstrap.js 304  - 1.226 ms
+[REQ] [2018-05-13 14:37:28,577] GET /js/functions.js 304  - 0.824 ms
+[REQ] [2018-05-13 14:37:28,581] GET /images/TE.png 304  - 1.023 ms
+[REQ] [2018-05-13 14:37:28,588] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.321 ms
+[REQ] [2018-05-13 14:37:28,683] GET /js/bootstrap.js.map 304  - 0.662 ms
+[REQ] [2018-05-13 14:37:28,691] GET /css/bootstrap.css.map 304  - 1.681 ms
+[REQ] [2018-05-13 14:37:30,609] POST /node 200 7716 - 15.441 ms
+[REQ] [2018-05-13 14:37:30,630] GET /css/bootstrap.css 304  - 3.188 ms
+[REQ] [2018-05-13 14:37:30,631] GET /css/custom.css 304  - 2.066 ms
+[REQ] [2018-05-13 14:37:30,644] GET /js/jquery-3.3.1.slim.min.js 304  - 1.358 ms
+[REQ] [2018-05-13 14:37:30,649] GET /js/popper.js 304  - 0.875 ms
+[REQ] [2018-05-13 14:37:30,654] GET /js/bootstrap.js 304  - 1.619 ms
+[REQ] [2018-05-13 14:37:30,663] GET /js/functions.js 304  - 1.471 ms
+[REQ] [2018-05-13 14:37:30,667] GET /images/TE.png 304  - 0.832 ms
+[REQ] [2018-05-13 14:37:30,672] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.853 ms
+[REQ] [2018-05-13 14:37:30,757] GET /js/bootstrap.js.map 304  - 0.953 ms
+[REQ] [2018-05-13 14:37:30,761] GET /css/bootstrap.css.map 304  - 0.790 ms
+[REQ] [2018-05-13 14:37:39,447] POST /node 200 4528 - 7.015 ms
+[REQ] [2018-05-13 14:37:39,462] GET /css/bootstrap.css 304  - 0.842 ms
+[REQ] [2018-05-13 14:37:39,464] GET /css/custom.css 304  - 0.555 ms
+[REQ] [2018-05-13 14:37:39,468] GET /js/jquery-3.3.1.slim.min.js 304  - 0.929 ms
+[REQ] [2018-05-13 14:37:39,473] GET /js/popper.js 304  - 1.143 ms
+[REQ] [2018-05-13 14:37:39,478] GET /js/bootstrap.js 304  - 1.306 ms
+[REQ] [2018-05-13 14:37:39,484] GET /js/functions.js 304  - 1.415 ms
+[REQ] [2018-05-13 14:37:39,490] GET /images/TE.png 304  - 1.086 ms
+[REQ] [2018-05-13 14:37:39,495] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.818 ms
+[REQ] [2018-05-13 14:37:39,593] GET /js/bootstrap.js.map 304  - 1.357 ms
+[REQ] [2018-05-13 14:37:39,593] GET /css/bootstrap.css.map 304  - 1.297 ms
+[REQ] [2018-05-13 14:37:42,301] GET / 200 4528 - 13.895 ms
+[REQ] [2018-05-13 14:37:42,319] GET /css/bootstrap.css 304  - 1.111 ms
+[REQ] [2018-05-13 14:37:42,321] GET /css/custom.css 304  - 1.336 ms
+[REQ] [2018-05-13 14:37:42,329] GET /js/jquery-3.3.1.slim.min.js 304  - 2.458 ms
+[REQ] [2018-05-13 14:37:42,335] GET /js/popper.js 304  - 1.895 ms
+[REQ] [2018-05-13 14:37:42,345] GET /js/bootstrap.js 304  - 2.094 ms
+[REQ] [2018-05-13 14:37:42,349] GET /js/functions.js 304  - 0.739 ms
+[REQ] [2018-05-13 14:37:42,362] GET /images/TE.png 304  - 7.291 ms
+[REQ] [2018-05-13 14:37:42,369] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.135 ms
+[REQ] [2018-05-13 14:37:42,405] GET /js/bootstrap.js.map 304  - 0.622 ms
+[REQ] [2018-05-13 14:37:42,455] GET /css/bootstrap.css.map 304  - 0.761 ms
+[REQ] [2018-05-13 14:41:02,381] GET / 200 4528 - 18.362 ms
+[REQ] [2018-05-13 14:41:02,400] GET /css/bootstrap.css 304  - 3.101 ms
+[REQ] [2018-05-13 14:41:02,408] GET /css/custom.css 304  - 5.347 ms
+[REQ] [2018-05-13 14:41:02,413] GET /js/jquery-3.3.1.slim.min.js 304  - 1.809 ms
+[REQ] [2018-05-13 14:41:02,417] GET /js/popper.js 304  - 0.852 ms
+[REQ] [2018-05-13 14:41:02,421] GET /js/bootstrap.js 304  - 0.812 ms
+[REQ] [2018-05-13 14:41:02,424] GET /js/functions.js 304  - 0.788 ms
+[REQ] [2018-05-13 14:41:02,430] GET /images/TE.png 304  - 0.997 ms
+[REQ] [2018-05-13 14:41:02,435] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.105 ms
+[REQ] [2018-05-13 14:41:09,128] POST /node 200 7716 - 10.019 ms
+[REQ] [2018-05-13 14:41:09,143] GET /css/bootstrap.css 304  - 0.907 ms
+[REQ] [2018-05-13 14:41:09,146] GET /css/custom.css 304  - 1.486 ms
+[REQ] [2018-05-13 14:41:09,151] GET /js/jquery-3.3.1.slim.min.js 304  - 0.867 ms
+[REQ] [2018-05-13 14:41:09,157] GET /js/popper.js 304  - 0.692 ms
+[REQ] [2018-05-13 14:41:09,165] GET /js/bootstrap.js 304  - 1.469 ms
+[REQ] [2018-05-13 14:41:09,170] GET /js/functions.js 304  - 1.505 ms
+[REQ] [2018-05-13 14:41:09,171] GET /images/TE.png 304  - 2.270 ms
+[REQ] [2018-05-13 14:41:09,173] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.284 ms
+[REQ] [2018-05-13 14:41:10,154] POST /node 200 4528 - 6.255 ms
+[REQ] [2018-05-13 14:41:10,184] GET /css/bootstrap.css 304  - 2.001 ms
+[REQ] [2018-05-13 14:41:10,186] GET /css/custom.css 304  - 2.598 ms
+[REQ] [2018-05-13 14:41:10,192] GET /js/jquery-3.3.1.slim.min.js 304  - 2.031 ms
+[REQ] [2018-05-13 14:41:10,196] GET /js/popper.js 304  - 0.944 ms
+[REQ] [2018-05-13 14:41:10,202] GET /js/bootstrap.js 304  - 2.346 ms
+[REQ] [2018-05-13 14:41:10,202] GET /js/functions.js 304  - 2.416 ms
+[REQ] [2018-05-13 14:41:10,203] GET /images/TE.png 304  - 1.464 ms
+[REQ] [2018-05-13 14:41:10,204] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.584 ms
+[REQ] [2018-05-13 14:41:16,95] POST /node 200 7716 - 7.067 ms
+[REQ] [2018-05-13 14:41:16,110] GET /css/bootstrap.css 304  - 0.918 ms
+[REQ] [2018-05-13 14:41:16,111] GET /css/custom.css 304  - 0.596 ms
+[REQ] [2018-05-13 14:41:16,118] GET /js/jquery-3.3.1.slim.min.js 304  - 2.727 ms
+[REQ] [2018-05-13 14:41:16,126] GET /js/popper.js 304  - 2.217 ms
+[REQ] [2018-05-13 14:41:16,131] GET /js/bootstrap.js 304  - 0.687 ms
+[REQ] [2018-05-13 14:41:16,138] GET /js/functions.js 304  - 1.193 ms
+[REQ] [2018-05-13 14:41:16,141] GET /images/TE.png 304  - 1.403 ms
+[REQ] [2018-05-13 14:41:16,142] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 2.163 ms
+[REQ] [2018-05-13 14:41:20,364] POST /node 200 8931 - 24.929 ms
+[REQ] [2018-05-13 14:41:20,381] GET /css/bootstrap.css 304  - 4.010 ms
+[REQ] [2018-05-13 14:41:20,382] GET /css/custom.css 304  - 2.899 ms
+[REQ] [2018-05-13 14:41:20,394] GET /js/jquery-3.3.1.slim.min.js 304  - 0.831 ms
+[REQ] [2018-05-13 14:41:20,400] GET /js/popper.js 304  - 0.945 ms
+[REQ] [2018-05-13 14:41:20,408] GET /js/bootstrap.js 304  - 1.069 ms
+[REQ] [2018-05-13 14:41:20,409] GET /js/functions.js 304  - 1.777 ms
+[REQ] [2018-05-13 14:41:20,412] GET /images/TE.png 304  - 1.541 ms
+[REQ] [2018-05-13 14:41:20,412] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.301 ms
+[REQ] [2018-05-13 14:41:22,481] POST /node 200 6044 - 18.572 ms
+[REQ] [2018-05-13 14:41:22,496] GET /css/bootstrap.css 304  - 0.895 ms
+[REQ] [2018-05-13 14:41:22,496] GET /css/custom.css 304  - 1.047 ms
+[REQ] [2018-05-13 14:41:22,499] GET /js/jquery-3.3.1.slim.min.js 304  - 0.662 ms
+[REQ] [2018-05-13 14:41:22,507] GET /js/popper.js 304  - 1.372 ms
+[REQ] [2018-05-13 14:41:22,514] GET /js/bootstrap.js 304  - 0.877 ms
+[REQ] [2018-05-13 14:41:22,522] GET /js/functions.js 304  - 4.215 ms
+[REQ] [2018-05-13 14:41:22,523] GET /images/TE.png 304  - 4.273 ms
+[REQ] [2018-05-13 14:41:22,524] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 4.913 ms
+[REQ] [2018-05-13 14:45:41,396] GET /images/TE.png 304  - 0.780 ms
+[REQ] [2018-05-13 14:45:43,598] GET / 200 4528 - 7.599 ms
+[REQ] [2018-05-13 14:45:43,616] GET /css/bootstrap.css 304  - 0.850 ms
+[REQ] [2018-05-13 14:45:43,618] GET /css/custom.css 304  - 0.901 ms
+[REQ] [2018-05-13 14:45:43,621] GET /js/jquery-3.3.1.slim.min.js 304  - 0.780 ms
+[REQ] [2018-05-13 14:45:43,632] GET /js/popper.js 304  - 1.048 ms
+[REQ] [2018-05-13 14:45:43,636] GET /js/bootstrap.js 304  - 1.393 ms
+[REQ] [2018-05-13 14:45:43,642] GET /js/functions.js 304  - 2.813 ms
+[REQ] [2018-05-13 14:45:43,650] GET /images/TE.png 304  - 1.625 ms
+[REQ] [2018-05-13 14:45:43,654] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.765 ms
+[REQ] [2018-05-13 14:46:13,408] GET / 200 4528 - 13.374 ms
+[REQ] [2018-05-13 14:46:13,573] GET /css/bootstrap.css 304  - 0.847 ms
+[REQ] [2018-05-13 14:46:13,579] GET /css/custom.css 304  - 0.982 ms
+[REQ] [2018-05-13 14:46:13,584] GET /images/TE.png 304  - 0.801 ms
+[REQ] [2018-05-13 14:46:13,588] GET /js/jquery-3.3.1.slim.min.js 304  - 0.949 ms
+[REQ] [2018-05-13 14:46:13,592] GET /js/popper.js 304  - 0.784 ms
+[REQ] [2018-05-13 14:46:13,596] GET /js/bootstrap.js 304  - 0.821 ms
+[REQ] [2018-05-13 14:46:13,602] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.079 ms
+[REQ] [2018-05-13 14:46:13,614] GET /js/functions.js 304  - 0.786 ms
+[REQ] [2018-05-13 14:46:14,125] GET /images/TE.png 304  - 2.200 ms
+[REQ] [2018-05-13 14:46:14,127] GET /js/jquery-3.3.1.slim.min.js 304  - 2.865 ms
+[REQ] [2018-05-13 14:46:14,127] GET /js/popper.js 304  - 2.447 ms
+[REQ] [2018-05-13 14:46:14,130] GET /js/bootstrap.js 304  - 0.775 ms
+[REQ] [2018-05-13 14:46:14,140] GET /js/functions.js 304  - 2.222 ms
+[REQ] [2018-05-13 14:46:14,146] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.283 ms
+[REQ] [2018-05-13 14:46:14,270] GET /js/bootstrap.js.map 304  - 0.919 ms
+[REQ] [2018-05-13 14:46:14,277] GET /css/bootstrap.css.map 304  - 1.926 ms
+[REQ] [2018-05-13 14:48:04,843] GET /images/TE.png 304  - 1.070 ms
+[REQ] [2018-05-13 15:13:25,587] GET / 200 4528 - 27.068 ms
+[REQ] [2018-05-13 15:13:25,608] GET /css/bootstrap.css 304  - 2.885 ms
+[REQ] [2018-05-13 15:13:25,610] GET /css/custom.css 304  - 0.970 ms
+[REQ] [2018-05-13 15:13:25,618] GET /js/jquery-3.3.1.slim.min.js 304  - 1.428 ms
+[REQ] [2018-05-13 15:13:25,622] GET /js/popper.js 304  - 0.933 ms
+[REQ] [2018-05-13 15:13:25,627] GET /js/bootstrap.js 304  - 1.028 ms
+[REQ] [2018-05-13 15:13:25,631] GET /js/functions.js 304  - 1.003 ms
+[REQ] [2018-05-13 15:13:25,634] GET /images/TE.png 304  - 0.837 ms
+[REQ] [2018-05-13 15:13:25,638] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.776 ms
+[REQ] [2018-05-13 15:13:25,736] GET /js/bootstrap.js.map 304  - 0.850 ms
+[REQ] [2018-05-13 15:13:25,743] GET /css/bootstrap.css.map 304  - 1.911 ms
+[REQ] [2018-05-13 17:52:15,337] GET / 200 4528 - 34.290 ms
+[REQ] [2018-05-13 17:52:15,357] GET /css/bootstrap.css 304  - 4.383 ms
+[REQ] [2018-05-13 17:52:15,359] GET /css/custom.css 304  - 1.080 ms
+[REQ] [2018-05-13 17:52:15,364] GET /js/jquery-3.3.1.slim.min.js 304  - 1.666 ms
+[REQ] [2018-05-13 17:52:15,369] GET /js/popper.js 304  - 1.340 ms
+[REQ] [2018-05-13 17:52:15,376] GET /js/bootstrap.js 304  - 0.864 ms
+[REQ] [2018-05-13 17:52:15,380] GET /js/functions.js 304  - 1.271 ms
+[REQ] [2018-05-13 17:52:15,384] GET /images/TE.png 304  - 0.877 ms
+[REQ] [2018-05-13 17:52:15,388] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.425 ms
+[REQ] [2018-05-13 17:52:15,479] GET /js/bootstrap.js.map 304  - 1.554 ms
+[REQ] [2018-05-13 17:52:15,480] GET /css/bootstrap.css.map 304  - 1.438 ms
+[REQ] [2018-05-13 17:52:41,56] GET / 200 4528 - 30.231 ms
+[REQ] [2018-05-13 17:52:41,70] GET /css/bootstrap.css 304  - 0.955 ms
+[REQ] [2018-05-13 17:52:41,87] GET /css/custom.css 304  - 11.208 ms
+[REQ] [2018-05-13 17:52:41,88] GET /js/jquery-3.3.1.slim.min.js 304  - 2.367 ms
+[REQ] [2018-05-13 17:52:41,92] GET /js/popper.js 304  - 0.855 ms
+[REQ] [2018-05-13 17:52:41,98] GET /js/bootstrap.js 304  - 1.140 ms
+[REQ] [2018-05-13 17:52:41,103] GET /js/functions.js 304  - 0.889 ms
+[REQ] [2018-05-13 17:52:41,107] GET /images/TE.png 304  - 0.898 ms
+[REQ] [2018-05-13 17:52:41,111] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.233 ms
+[REQ] [2018-05-13 17:52:41,148] GET /js/bootstrap.js.map 304  - 0.815 ms
+[REQ] [2018-05-13 17:52:41,213] GET /css/bootstrap.css.map 304  - 0.875 ms
+[REQ] [2018-05-13 17:54:15,550] GET / 200 4528 - 29.169 ms
+[REQ] [2018-05-13 17:54:15,574] GET /css/bootstrap.css 304  - 2.106 ms
+[REQ] [2018-05-13 17:54:15,580] GET /css/custom.css 304  - 7.001 ms
+[REQ] [2018-05-13 17:54:15,593] GET /js/jquery-3.3.1.slim.min.js 304  - 1.488 ms
+[REQ] [2018-05-13 17:54:15,598] GET /js/popper.js 304  - 0.891 ms
+[REQ] [2018-05-13 17:54:15,602] GET /js/bootstrap.js 304  - 1.018 ms
+[REQ] [2018-05-13 17:54:15,609] GET /js/functions.js 304  - 1.999 ms
+[REQ] [2018-05-13 17:54:15,618] GET /images/TE.png 304  - 0.850 ms
+[REQ] [2018-05-13 17:54:15,620] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.893 ms
+[REQ] [2018-05-13 17:54:15,657] GET /js/bootstrap.js.map 304  - 0.797 ms
+[REQ] [2018-05-13 17:54:15,716] GET /css/bootstrap.css.map 304  - 0.903 ms
+[REQ] [2018-05-13 17:57:08,465] GET /js/bootstrap.js.map 304  - 1.125 ms
+[REQ] [2018-05-13 17:57:08,469] GET /css/bootstrap.css.map 304  - 2.199 ms
+[REQ] [2018-05-13 18:04:15,499] GET / 200 4528 - 14.746 ms
+[REQ] [2018-05-13 18:04:15,523] GET /css/bootstrap.css 304  - 4.078 ms
+[REQ] [2018-05-13 18:04:15,531] GET /css/custom.css 304  - 3.043 ms
+[REQ] [2018-05-13 18:04:15,534] GET /js/jquery-3.3.1.slim.min.js 304  - 1.334 ms
+[REQ] [2018-05-13 18:04:15,541] GET /js/popper.js 304  - 0.967 ms
+[REQ] [2018-05-13 18:04:15,545] GET /js/bootstrap.js 304  - 0.938 ms
+[REQ] [2018-05-13 18:04:15,549] GET /js/functions.js 304  - 1.181 ms
+[REQ] [2018-05-13 18:04:15,554] GET /images/TE.png 304  - 0.927 ms
+[REQ] [2018-05-13 18:04:15,559] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.464 ms
+[REQ] [2018-05-13 18:04:15,638] GET /js/bootstrap.js.map 304  - 1.337 ms
+[REQ] [2018-05-13 18:04:15,641] GET /css/bootstrap.css.map 304  - 0.844 ms
+[REQ] [2018-05-13 18:04:16,693] GET / 200 4528 - 24.819 ms
+[REQ] [2018-05-13 18:04:16,714] GET /css/bootstrap.css 304  - 7.283 ms
+[REQ] [2018-05-13 18:04:16,718] GET /css/custom.css 304  - 4.409 ms
+[REQ] [2018-05-13 18:04:16,721] GET /js/jquery-3.3.1.slim.min.js 304  - 0.843 ms
+[REQ] [2018-05-13 18:04:16,728] GET /js/popper.js 304  - 1.378 ms
+[REQ] [2018-05-13 18:04:16,733] GET /js/bootstrap.js 304  - 0.920 ms
+[REQ] [2018-05-13 18:04:16,738] GET /js/functions.js 304  - 1.523 ms
+[REQ] [2018-05-13 18:04:16,742] GET /images/TE.png 304  - 1.457 ms
+[REQ] [2018-05-13 18:04:16,746] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.114 ms
+[REQ] [2018-05-13 18:04:16,824] GET /js/bootstrap.js.map 304  - 1.283 ms
+[REQ] [2018-05-13 18:04:16,827] GET /css/bootstrap.css.map 304  - 0.969 ms
+[REQ] [2018-05-13 18:07:02,442] GET / 200 4528 - 32.403 ms
+[REQ] [2018-05-13 18:07:02,465] GET /css/bootstrap.css 304  - 3.795 ms
+[REQ] [2018-05-13 18:07:02,469] GET /css/custom.css 304  - 1.916 ms
+[REQ] [2018-05-13 18:07:02,472] GET /js/jquery-3.3.1.slim.min.js 304  - 1.338 ms
+[REQ] [2018-05-13 18:07:02,476] GET /js/popper.js 304  - 0.934 ms
+[REQ] [2018-05-13 18:07:02,480] GET /js/bootstrap.js 304  - 1.161 ms
+[REQ] [2018-05-13 18:07:02,484] GET /js/functions.js 304  - 1.097 ms
+[REQ] [2018-05-13 18:07:02,488] GET /images/TE.png 304  - 0.909 ms
+[REQ] [2018-05-13 18:07:02,492] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.139 ms
+[REQ] [2018-05-13 18:07:02,584] GET /js/bootstrap.js.map 304  - 1.810 ms
+[REQ] [2018-05-13 18:07:02,585] GET /css/bootstrap.css.map 304  - 1.446 ms
+[REQ] [2018-05-13 18:08:03,334] GET / 200 4528 - 33861.208 ms
+[REQ] [2018-05-13 18:08:03,377] GET /css/custom.css 304  - 4.216 ms
+[REQ] [2018-05-13 18:08:03,378] GET /css/bootstrap.css 304  - 3.366 ms
+[REQ] [2018-05-13 18:08:03,384] GET /js/jquery-3.3.1.slim.min.js 304  - 1.256 ms
+[REQ] [2018-05-13 18:08:03,390] GET /js/popper.js 304  - 1.905 ms
+[REQ] [2018-05-13 18:08:03,396] GET /js/bootstrap.js 304  - 2.308 ms
+[REQ] [2018-05-13 18:08:03,401] GET /js/functions.js 304  - 1.358 ms
+[REQ] [2018-05-13 18:08:03,406] GET /images/TE.png 304  - 0.956 ms
+[REQ] [2018-05-13 18:08:03,410] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.031 ms
+[REQ] [2018-05-13 18:08:03,519] GET /js/bootstrap.js.map 304  - 1.144 ms
+[REQ] [2018-05-13 18:08:03,521] GET /css/bootstrap.css.map 304  - 0.884 ms
+[REQ] [2018-05-13 18:08:30,586] GET / 200 4528 - 23958.973 ms
+[REQ] [2018-05-13 18:08:30,615] GET /css/bootstrap.css 304  - 1.913 ms
+[REQ] [2018-05-13 18:08:30,621] GET /css/custom.css 304  - 3.495 ms
+[REQ] [2018-05-13 18:08:30,629] GET /js/jquery-3.3.1.slim.min.js 304  - 4.789 ms
+[REQ] [2018-05-13 18:08:30,637] GET /js/popper.js 304  - 0.875 ms
+[REQ] [2018-05-13 18:08:30,641] GET /js/bootstrap.js 304  - 1.143 ms
+[REQ] [2018-05-13 18:08:30,651] GET /js/functions.js 304  - 6.010 ms
+[REQ] [2018-05-13 18:08:30,658] GET /images/TE.png 304  - 2.253 ms
+[REQ] [2018-05-13 18:08:30,663] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.561 ms
+[REQ] [2018-05-13 18:08:30,757] GET /js/bootstrap.js.map 304  - 0.922 ms
+[REQ] [2018-05-13 18:08:30,759] GET /css/bootstrap.css.map 304  - 1.103 ms
+[REQ] [2018-05-13 18:08:35,671] GET / 200 4528 - 2715.545 ms
+[REQ] [2018-05-13 18:08:35,698] GET /css/bootstrap.css 304  - 4.977 ms
+[REQ] [2018-05-13 18:08:35,700] GET /css/custom.css 304  - 4.499 ms
+[REQ] [2018-05-13 18:08:35,704] GET /js/jquery-3.3.1.slim.min.js 304  - 1.220 ms
+[REQ] [2018-05-13 18:08:35,714] GET /js/popper.js 304  - 1.461 ms
+[REQ] [2018-05-13 18:08:35,720] GET /js/bootstrap.js 304  - 1.415 ms
+[REQ] [2018-05-13 18:08:35,725] GET /js/functions.js 304  - 1.371 ms
+[REQ] [2018-05-13 18:08:35,731] GET /images/TE.png 304  - 1.341 ms
+[REQ] [2018-05-13 18:08:35,737] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.027 ms
+[REQ] [2018-05-13 18:08:35,773] GET /js/bootstrap.js.map 304  - 1.281 ms
+[REQ] [2018-05-13 18:08:35,823] GET /css/bootstrap.css.map 304  - 1.389 ms
+[REQ] [2018-05-13 18:08:48,833] GET / 200 4528 - 10226.186 ms
+[REQ] [2018-05-13 18:08:48,874] GET /css/bootstrap.css 304  - 5.320 ms
+[REQ] [2018-05-13 18:08:48,875] GET /css/custom.css 304  - 5.252 ms
+[REQ] [2018-05-13 18:08:48,885] GET /js/jquery-3.3.1.slim.min.js 304  - 1.292 ms
+[REQ] [2018-05-13 18:08:48,895] GET /js/popper.js 304  - 0.875 ms
+[REQ] [2018-05-13 18:08:48,901] GET /js/bootstrap.js 304  - 2.077 ms
+[REQ] [2018-05-13 18:08:48,909] GET /js/functions.js 304  - 1.274 ms
+[REQ] [2018-05-13 18:08:48,913] GET /images/TE.png 304  - 1.622 ms
+[REQ] [2018-05-13 18:08:48,914] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.937 ms
+[REQ] [2018-05-13 18:08:48,950] GET /js/bootstrap.js.map 304  - 0.935 ms
+[REQ] [2018-05-13 18:08:49,08] GET /css/bootstrap.css.map 304  - 1.157 ms
+[REQ] [2018-05-13 18:10:31,577] GET / 200 4528 - 97129.832 ms
+[REQ] [2018-05-13 18:10:31,623] GET /css/bootstrap.css 304  - 8.717 ms
+[REQ] [2018-05-13 18:10:31,625] GET /css/custom.css 304  - 2.174 ms
+[REQ] [2018-05-13 18:10:31,629] GET /js/jquery-3.3.1.slim.min.js 304  - 1.331 ms
+[REQ] [2018-05-13 18:10:31,635] GET /js/popper.js 304  - 1.229 ms
+[REQ] [2018-05-13 18:10:31,642] GET /js/bootstrap.js 304  - 1.191 ms
+[REQ] [2018-05-13 18:10:31,647] GET /js/functions.js 304  - 0.961 ms
+[REQ] [2018-05-13 18:10:31,652] GET /images/TE.png 304  - 1.338 ms
+[REQ] [2018-05-13 18:10:31,658] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 1.102 ms
+[REQ] [2018-05-13 18:10:31,761] GET /js/bootstrap.js.map 304  - 1.150 ms
+[REQ] [2018-05-13 18:10:31,763] GET /css/bootstrap.css.map 304  - 1.006 ms
+[REQ] [2018-05-13 18:11:36,80] GET / 200 4528 - 59498.507 ms
+[REQ] [2018-05-13 19:04:25,108] GET / 200 4528 - 34.782 ms
+[REQ] [2018-05-13 19:04:25,127] GET /css/bootstrap.css 304  - 3.241 ms
+[REQ] [2018-05-13 19:04:25,131] GET /css/custom.css 304  - 5.748 ms
+[REQ] [2018-05-13 19:04:25,134] GET /js/jquery-3.3.1.slim.min.js 304  - 1.997 ms
+[REQ] [2018-05-13 19:04:25,139] GET /js/popper.js 304  - 1.060 ms
+[REQ] [2018-05-13 19:04:25,142] GET /js/bootstrap.js 304  - 0.847 ms
+[REQ] [2018-05-13 19:04:25,147] GET /js/functions.js 304  - 1.327 ms
+[REQ] [2018-05-13 19:04:25,151] GET /images/TE.png 304  - 0.975 ms
+[REQ] [2018-05-13 19:04:25,154] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.809 ms
+[REQ] [2018-05-13 19:04:25,250] GET /icons/favicon.ico 200 4086 - 2.329 ms
+[REQ] [2018-05-13 19:04:27,708] GET /css/bootstrap.css 304  - 0.948 ms
+[REQ] [2018-05-13 19:04:27,708] GET /css/custom.css 304  - 1.112 ms
+[REQ] [2018-05-13 19:04:27,748] GET /js/bootstrap.js.map 304  - 0.793 ms
+[REQ] [2018-05-13 19:04:27,758] GET /css/bootstrap.css.map 304  - 0.832 ms
+[REQ] [2018-05-13 19:04:36,465] POST /node 200 7716 - 28.256 ms
+[REQ] [2018-05-13 19:04:36,486] GET /css/bootstrap.css 304  - 5.990 ms
+[REQ] [2018-05-13 19:04:36,491] GET /css/custom.css 304  - 7.460 ms
+[REQ] [2018-05-13 19:04:36,495] GET /js/jquery-3.3.1.slim.min.js 304  - 2.863 ms
+[REQ] [2018-05-13 19:04:36,499] GET /js/popper.js 304  - 1.033 ms
+[REQ] [2018-05-13 19:04:36,504] GET /js/bootstrap.js 304  - 0.873 ms
+[REQ] [2018-05-13 19:04:36,507] GET /js/functions.js 304  - 0.759 ms
+[REQ] [2018-05-13 19:04:36,513] GET /images/TE.png 304  - 2.812 ms
+[REQ] [2018-05-13 19:04:36,520] GET /lib/fontawesome-v5.0.12/js/fontawesome-all.js 304  - 0.915 ms
+[REQ] [2018-05-13 19:04:36,556] GET /css/bootstrap.css.map 304  - 0.723 ms
+[REQ] [2018-05-13 19:04:36,628] GET /js/bootstrap.js.map 304  - 0.700 ms

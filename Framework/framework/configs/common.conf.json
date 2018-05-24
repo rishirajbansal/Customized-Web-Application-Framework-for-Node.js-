@@ -1,0 +1,41 @@
+{
+	"app_root_context": "/node",
+	
+	"app_name": "Framework",
+	
+	"favicon_file": "favicon.ico",
+	"favicon_loc": "../static/icons",
+	
+	"serve_static_folder": "../static",
+	
+	"views_folder": "../views",
+    
+	"logger": {
+	    "logger_level": "debug",
+	    "log_loc": "./logs",
+	    "log_file": "log",
+	    "log_file_size": "250k",
+	    "log_max_files": "60d"
+	},
+	
+	"requestLogger": {
+	    "req_log_loc": "./logs",
+	    "req_log_file": "reqlog",
+	    "req_log_file_size": "250K",
+	    "req_log_max_files": 10,
+	    "req_logs_file_history": "reqlog-filesHistory.txt"
+	},
+	
+	"showStackTrace": "true",
+	
+	"file_upload": {
+		"dest_folder": "./data/uploads",
+		
+		"__COMMENT_file_size": "File size in MB",
+		"multer_max_file_size": 50,
+		"max_file_size": 10,
+		
+		"__COMMENT_file_types": "For all '*' can be use else mention file exts '|' seperated without dots",
+		"allowable_file_types": "pdf|txt"
+	}
+}

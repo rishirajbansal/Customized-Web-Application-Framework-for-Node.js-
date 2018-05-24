@@ -1,0 +1,1108 @@
+[2018-05-13 03:16:35] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:16:35] INFO applicationLoader.js : Loading Application...
+[2018-05-13 03:16:35] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 03:16:35] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 03:16:35] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:16:35] INFO applicationLoader.js : Execution Args: []
+[2018-05-13 03:16:35] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 03:16:35] INFO applicationLoader.js : Process ID: 15020
+[2018-05-13 03:16:35] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:16:35] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 03:16:35] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 03:16:35] INFO applicationLoader.js : =========================================
+[2018-05-13 03:16:35] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 03:16:35] INFO applicationLoader.js : App Locals set.
+[2018-05-13 03:16:35] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 03:16:35] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 03:16:35] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 03:16:35] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 03:16:35] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 03:16:35] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 03:16:35] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 03:16:35] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 03:16:35] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 03:16:35] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:16:45] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 03:16:45] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 03:16:45] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 03:16:45] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 03:16:45] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 03:16:45] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 03:16:45] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 03:16:45] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 03:16:45] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 03:16:45] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 03:16:45] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 03:16:45] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 03:17:03] DEBUG applicationRouter.js : In doPost(), going to forward to processRequest()
+[2018-05-13 03:17:03] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 03:17:03] DEBUG applicationRouter.js : Content type is : application/x-www-form-urlencoded
+[2018-05-13 03:17:03] DEBUG applicationRouter.js : Request received for action : Login
+[2018-05-13 03:17:03] DEBUG loginController.js : Inside LoginController -> handleRequest()
+[2018-05-13 03:17:03] DEBUG loginController.js : |~| Login Request |~| Request recieved for action method : loadLogin
+[2018-05-13 03:17:03] DEBUG loginController.js : |~| Login Request |~| Request recieved from view : welcome
+[2018-05-13 03:17:03] DEBUG loginAction.js : Inside LoginAction -> execute()
+[2018-05-13 03:17:03] DEBUG loginAction.js : Inside LoginAction -> loadLogin()
+[2018-05-13 03:17:03] DEBUG loginController.js : |~| Login Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 03:17:03] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : login
+[2018-05-13 03:17:48] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:17:48] INFO applicationLoader.js : Loading Application...
+[2018-05-13 03:17:48] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 03:17:48] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 03:17:48] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:17:48] INFO applicationLoader.js : Execution Args: []
+[2018-05-13 03:17:48] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 03:17:48] INFO applicationLoader.js : Process ID: 13844
+[2018-05-13 03:17:48] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:17:48] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 03:17:48] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 03:17:48] INFO applicationLoader.js : =========================================
+[2018-05-13 03:17:48] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 03:17:48] INFO applicationLoader.js : App Locals set.
+[2018-05-13 03:17:48] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 03:17:48] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 03:17:48] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 03:17:48] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 03:17:48] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 03:17:48] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 03:17:48] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 03:17:48] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 03:17:48] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 03:17:48] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:19:34] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:19:34] INFO applicationLoader.js : Loading Application...
+[2018-05-13 03:19:34] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 03:19:34] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 03:19:34] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:19:34] INFO applicationLoader.js : Execution Args: []
+[2018-05-13 03:19:34] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 03:19:34] INFO applicationLoader.js : Process ID: 12412
+[2018-05-13 03:19:34] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:19:34] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 03:19:34] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 03:19:34] INFO applicationLoader.js : =========================================
+[2018-05-13 03:19:34] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 03:19:34] INFO applicationLoader.js : App Locals set.
+[2018-05-13 03:19:34] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 03:19:34] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 03:19:34] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 03:19:34] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 03:19:34] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 03:19:34] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 03:19:34] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 03:19:34] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 03:19:34] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 03:19:34] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:20:19] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:20:19] INFO applicationLoader.js : Loading Application...
+[2018-05-13 03:20:19] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 03:20:19] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 03:20:19] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:20:19] INFO applicationLoader.js : Execution Args: []
+[2018-05-13 03:20:19] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 03:20:19] INFO applicationLoader.js : Process ID: 18784
+[2018-05-13 03:20:19] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:20:19] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 03:20:19] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 03:20:19] INFO applicationLoader.js : =========================================
+[2018-05-13 03:20:19] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 03:20:19] INFO applicationLoader.js : App Locals set.
+[2018-05-13 03:20:19] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 03:20:20] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 03:20:20] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 03:20:20] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 03:20:20] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 03:20:20] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 03:20:20] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 03:20:20] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 03:20:20] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 03:20:20] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:26:32] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:26:32] INFO applicationLoader.js : Loading Application...
+[2018-05-13 03:26:32] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 03:26:32] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 03:26:32] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:26:32] INFO applicationLoader.js : Execution Args: []
+[2018-05-13 03:26:32] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 03:26:32] INFO applicationLoader.js : Process ID: 22016
+[2018-05-13 03:26:32] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:26:32] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 03:26:32] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 03:26:32] INFO applicationLoader.js : =========================================
+[2018-05-13 03:26:32] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 03:26:32] INFO applicationLoader.js : App Locals set.
+[2018-05-13 03:26:32] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 03:26:32] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 03:26:32] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 03:26:32] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 03:26:32] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 03:26:32] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 03:26:32] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 03:26:32] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 03:26:32] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 03:26:32] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:26:52] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:26:52] INFO applicationLoader.js : Loading Application...
+[2018-05-13 03:26:52] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 03:26:52] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 03:26:52] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:26:52] INFO applicationLoader.js : Execution Args: []
+[2018-05-13 03:26:52] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 03:26:52] INFO applicationLoader.js : Process ID: 8188
+[2018-05-13 03:26:52] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:26:52] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 03:26:52] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 03:26:52] INFO applicationLoader.js : =========================================
+[2018-05-13 03:26:52] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 03:26:52] INFO applicationLoader.js : App Locals set.
+[2018-05-13 03:26:52] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 03:26:52] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 03:26:52] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 03:26:52] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 03:26:52] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 03:26:52] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 03:26:52] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 03:26:52] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 03:26:52] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 03:26:52] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:30:13] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:30:13] INFO applicationLoader.js : Loading Application...
+[2018-05-13 03:30:13] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 03:30:13] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 03:30:13] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:30:13] INFO applicationLoader.js : Execution Args: []
+[2018-05-13 03:30:13] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 03:30:13] INFO applicationLoader.js : Process ID: 13992
+[2018-05-13 03:30:13] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:30:13] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 03:30:13] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 03:30:13] INFO applicationLoader.js : =========================================
+[2018-05-13 03:30:13] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 03:30:13] INFO applicationLoader.js : App Locals set.
+[2018-05-13 03:30:13] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 03:30:13] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 03:30:13] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 03:30:13] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 03:30:13] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 03:30:13] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 03:30:13] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 03:30:13] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 03:30:13] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 03:30:13] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:30:32] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:30:32] INFO applicationLoader.js : Loading Application...
+[2018-05-13 03:30:32] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 03:30:32] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 03:30:32] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:30:32] INFO applicationLoader.js : Execution Args: []
+[2018-05-13 03:30:32] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 03:30:32] INFO applicationLoader.js : Process ID: 1904
+[2018-05-13 03:30:32] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:30:32] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 03:30:32] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 03:30:32] INFO applicationLoader.js : =========================================
+[2018-05-13 03:30:32] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 03:30:32] INFO applicationLoader.js : App Locals set.
+[2018-05-13 03:30:32] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 03:30:32] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 03:30:32] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 03:30:32] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 03:30:32] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 03:30:32] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 03:30:32] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 03:30:32] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 03:30:32] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 03:30:32] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:31:32] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:31:32] INFO applicationLoader.js : Loading Application...
+[2018-05-13 03:31:32] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 03:31:32] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 03:31:32] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:31:32] INFO applicationLoader.js : Execution Args: []
+[2018-05-13 03:31:32] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 03:31:32] INFO applicationLoader.js : Process ID: 13904
+[2018-05-13 03:31:32] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:31:32] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 03:31:32] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 03:31:32] INFO applicationLoader.js : =========================================
+[2018-05-13 03:31:32] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 03:31:32] INFO applicationLoader.js : App Locals set.
+[2018-05-13 03:31:32] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 03:31:33] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 03:31:33] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 03:31:33] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 03:31:33] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 03:31:33] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 03:31:33] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 03:31:33] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 03:31:33] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 03:31:33] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:32:58] ERROR controllersFactory.js : uncaughtException: logger.test is not a function
+TypeError: logger.test is not a function
+    at ApplicationLoader.loadApplication (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\applicationLoader.js:47:10)
+    at Timeout.setTimeout [as _onTimeout] (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\app.js:41:20)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[2018-05-13 03:32:58] ERROR controllersFactory.js : uncaughtException: logger.test is not a function
+TypeError: logger.test is not a function
+    at ApplicationLoader.loadApplication (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\applicationLoader.js:47:10)
+    at Timeout.setTimeout [as _onTimeout] (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\app.js:41:20)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[2018-05-13 03:32:58] ERROR actionFactory.js : uncaughtException: logger.test is not a function
+TypeError: logger.test is not a function
+    at ApplicationLoader.loadApplication (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\applicationLoader.js:47:10)
+    at Timeout.setTimeout [as _onTimeout] (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\app.js:41:20)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[2018-05-13 03:32:58] ERROR actionFactory.js : uncaughtException: logger.test is not a function
+TypeError: logger.test is not a function
+    at ApplicationLoader.loadApplication (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\applicationLoader.js:47:10)
+    at Timeout.setTimeout [as _onTimeout] (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\app.js:41:20)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[2018-05-13 03:32:58] ERROR databaseConnectionManager.js : uncaughtException: logger.test is not a function
+TypeError: logger.test is not a function
+    at ApplicationLoader.loadApplication (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\applicationLoader.js:47:10)
+    at Timeout.setTimeout [as _onTimeout] (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\app.js:41:20)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[2018-05-13 03:32:58] ERROR databaseConnectionManager.js : uncaughtException: logger.test is not a function
+TypeError: logger.test is not a function
+    at ApplicationLoader.loadApplication (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\applicationLoader.js:47:10)
+    at Timeout.setTimeout [as _onTimeout] (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\app.js:41:20)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[2018-05-13 03:32:58] ERROR initConfigurator.js : uncaughtException: logger.test is not a function
+TypeError: logger.test is not a function
+    at ApplicationLoader.loadApplication (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\applicationLoader.js:47:10)
+    at Timeout.setTimeout [as _onTimeout] (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\app.js:41:20)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[2018-05-13 03:32:58] ERROR initConfigurator.js : uncaughtException: logger.test is not a function
+TypeError: logger.test is not a function
+    at ApplicationLoader.loadApplication (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\applicationLoader.js:47:10)
+    at Timeout.setTimeout [as _onTimeout] (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\app.js:41:20)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[2018-05-13 03:32:58] ERROR applicationLoader.js : uncaughtException: logger.test is not a function
+TypeError: logger.test is not a function
+    at ApplicationLoader.loadApplication (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\applicationLoader.js:47:10)
+    at Timeout.setTimeout [as _onTimeout] (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\app.js:41:20)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[2018-05-13 03:32:58] ERROR applicationLoader.js : uncaughtException: logger.test is not a function
+TypeError: logger.test is not a function
+    at ApplicationLoader.loadApplication (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\applicationLoader.js:47:10)
+    at Timeout.setTimeout [as _onTimeout] (C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main\app.js:41:20)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[2018-05-13 03:33:40] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:33:40] INFO applicationLoader.js : Loading Application...
+[2018-05-13 03:33:40] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 03:33:40] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 03:33:40] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:33:40] INFO applicationLoader.js : Execution Args: []
+[2018-05-13 03:33:40] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 03:33:40] INFO applicationLoader.js : Process ID: 22012
+[2018-05-13 03:33:40] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:33:40] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 03:33:40] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 03:33:40] INFO applicationLoader.js : =========================================
+[2018-05-13 03:33:40] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 03:33:40] INFO applicationLoader.js : App Locals set.
+[2018-05-13 03:33:40] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 03:33:40] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 03:33:40] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 03:33:40] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 03:33:40] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 03:33:40] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 03:33:40] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 03:33:40] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 03:33:40] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 03:33:40] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:34:49] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:34:49] INFO applicationLoader.js : Loading Application...
+[2018-05-13 03:34:49] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 03:34:49] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 03:34:49] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:34:49] INFO applicationLoader.js : Execution Args: []
+[2018-05-13 03:34:49] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 03:34:49] INFO applicationLoader.js : Process ID: 13348
+[2018-05-13 03:34:49] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:34:49] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 03:34:49] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 03:34:49] INFO applicationLoader.js : =========================================
+[2018-05-13 03:34:49] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 03:34:49] INFO applicationLoader.js : App Locals set.
+[2018-05-13 03:34:49] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 03:34:49] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 03:34:49] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 03:34:49] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 03:34:49] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 03:34:49] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 03:34:49] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 03:34:49] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 03:34:49] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 03:34:49] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:41:10] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:41:10] INFO applicationLoader.js : Loading Application...
+[2018-05-13 03:41:10] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 03:41:10] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 03:41:10] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:41:10] INFO applicationLoader.js : Execution Args: []
+[2018-05-13 03:41:10] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 03:41:10] INFO applicationLoader.js : Process ID: 16404
+[2018-05-13 03:41:10] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:41:10] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 03:41:10] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 03:41:10] INFO applicationLoader.js : =========================================
+[2018-05-13 03:41:10] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 03:41:10] INFO applicationLoader.js : App Locals set.
+[2018-05-13 03:41:10] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 03:41:10] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 03:41:10] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 03:41:10] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 03:41:10] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 03:41:10] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 03:41:10] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 03:41:10] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 03:41:10] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 03:41:10] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:41:20] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 03:41:20] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 03:41:20] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 03:41:20] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 03:41:20] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 03:41:20] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 03:41:20] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 03:41:20] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 03:41:20] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 03:41:20] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 03:41:20] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 03:41:20] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 03:41:48] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 03:41:48] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 03:41:48] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 03:41:48] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 03:41:48] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 03:41:48] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 03:41:48] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 03:41:48] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 03:41:48] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 03:41:48] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 03:41:48] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 03:41:48] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 03:58:57] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 03:58:57] INFO applicationLoader.js : Loading Application...
+[2018-05-13 03:58:57] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 03:58:57] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 03:58:57] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:58:57] INFO applicationLoader.js : Execution Args: []
+[2018-05-13 03:58:57] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 03:58:57] INFO applicationLoader.js : Process ID: 18832
+[2018-05-13 03:58:57] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 03:58:57] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 03:58:57] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 03:58:57] INFO applicationLoader.js : =========================================
+[2018-05-13 03:58:57] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 03:58:57] INFO applicationLoader.js : App Locals set.
+[2018-05-13 03:58:57] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 03:58:57] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 03:58:57] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 03:58:57] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 03:58:57] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 03:58:57] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 03:58:58] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 03:58:58] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 03:58:58] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 03:58:58] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 04:02:19] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:02:19] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:02:19] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:02:19] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:02:19] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:02:19] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:02:19] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:02:19] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:02:19] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:02:19] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:02:19] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:02:19] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:02:57] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:02:57] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:02:57] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:02:57] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:02:57] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:02:57] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:02:57] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:02:57] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:02:57] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:02:57] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:02:57] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:02:57] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:10:56] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:10:56] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:10:56] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:10:56] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:10:56] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:10:56] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:10:56] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:10:56] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:10:56] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:10:56] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:10:56] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:10:56] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:11:35] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:11:35] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:11:35] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:11:35] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:11:35] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:11:35] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:11:35] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:11:35] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:11:35] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:11:35] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:11:35] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:11:35] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:12:01] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:12:01] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:12:01] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:12:01] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:12:01] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:12:01] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:12:01] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:12:01] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:12:01] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:12:01] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:12:01] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:12:01] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:12:18] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:12:18] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:12:18] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:12:18] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:12:18] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:12:18] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:12:18] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:12:18] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:12:18] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:12:18] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:12:18] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:12:18] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:12:43] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:12:43] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:12:43] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:12:43] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:12:43] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:12:43] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:12:43] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:12:43] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:12:43] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:12:43] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:12:43] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:12:43] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:13:08] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:13:08] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:13:08] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:13:08] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:13:08] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:13:08] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:13:08] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:13:08] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:13:08] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:13:08] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:13:08] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:13:08] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:13:46] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:13:46] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:13:46] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:13:46] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:13:46] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:13:46] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:13:46] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:13:46] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:13:46] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:13:46] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:13:46] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:13:46] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:15:29] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:15:29] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:15:29] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:15:29] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:15:29] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:15:29] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:15:29] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:15:29] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:15:29] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:15:29] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:15:29] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:15:29] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:15:58] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:15:58] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:15:58] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:15:58] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:15:58] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:15:58] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:15:58] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:15:58] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:15:58] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:15:58] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:15:58] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:15:58] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:16:47] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:16:47] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:16:47] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:16:47] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:16:47] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:16:47] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:16:47] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:16:47] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:16:47] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:16:47] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:16:47] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:16:47] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:17:17] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:17:17] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:17:17] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:17:17] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:17:17] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:17:17] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:17:17] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:17:17] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:17:17] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:17:17] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:17:17] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:17:17] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:18:41] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 04:18:41] INFO applicationLoader.js : Loading Application...
+[2018-05-13 04:18:41] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 04:18:41] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 04:18:41] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 04:18:41] INFO applicationLoader.js : Execution Args: []
+[2018-05-13 04:18:41] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 04:18:41] INFO applicationLoader.js : Process ID: 2112
+[2018-05-13 04:18:41] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 04:18:41] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 04:18:41] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 04:18:41] INFO applicationLoader.js : =========================================
+[2018-05-13 04:18:41] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 04:18:41] INFO applicationLoader.js : App Locals set.
+[2018-05-13 04:18:41] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 04:18:41] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 04:18:41] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 04:18:41] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 04:18:41] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 04:18:41] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 04:18:41] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 04:18:41] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 04:18:41] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 04:18:41] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 04:18:43] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:18:43] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:18:43] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:18:43] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:18:43] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:18:43] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:18:43] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:18:43] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:18:43] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:18:43] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:18:43] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:18:43] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:18:44] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:18:44] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:18:44] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:18:44] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:18:44] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:18:44] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:18:44] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:18:44] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:18:44] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:18:44] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:18:44] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:18:44] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:19:39] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:19:39] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:19:39] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:19:39] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:19:39] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:19:39] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:19:39] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:19:39] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:19:39] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:19:39] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:19:39] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:19:39] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:19:56] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:19:56] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:19:56] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:19:56] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:19:56] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:19:56] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:19:56] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:19:56] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:19:56] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:19:56] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:19:56] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:19:56] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:20:26] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:20:26] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:20:26] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:20:26] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:20:26] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:20:26] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:20:26] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:20:26] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:20:26] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:20:26] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:20:26] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:20:26] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:21:00] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:21:00] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:21:00] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:21:00] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:21:00] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:21:00] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:21:00] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:21:00] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:21:00] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:21:00] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:21:00] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:21:00] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:21:54] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 04:21:54] INFO applicationLoader.js : Loading Application...
+[2018-05-13 04:21:54] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 04:21:54] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 04:21:54] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 04:21:54] INFO applicationLoader.js : Execution Args: ["--inspect-brk=5858"]
+[2018-05-13 04:21:54] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 04:21:54] INFO applicationLoader.js : Process ID: 22532
+[2018-05-13 04:21:54] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 04:21:54] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 04:21:54] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 04:21:54] INFO applicationLoader.js : =========================================
+[2018-05-13 04:21:54] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 04:21:54] INFO applicationLoader.js : App Locals set.
+[2018-05-13 04:21:54] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 04:21:54] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 04:21:54] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 04:21:54] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 04:21:54] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 04:21:54] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 04:21:54] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 04:21:54] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 04:21:54] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 04:21:54] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 04:21:59] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:21:59] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:21:59] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:21:59] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:21:59] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:21:59] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:21:59] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:21:59] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:21:59] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:21:59] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:21:59] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:21:59] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:22:18] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:22:18] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:22:18] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:22:18] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:22:18] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:22:18] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:22:18] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:22:18] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:22:18] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:22:18] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:22:18] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:22:18] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:50:39] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 04:50:39] INFO applicationLoader.js : Loading Application...
+[2018-05-13 04:50:39] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 04:50:39] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 04:50:39] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 04:50:39] INFO applicationLoader.js : Execution Args: ["--inspect=localhost:5858"]
+[2018-05-13 04:50:39] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 04:50:39] INFO applicationLoader.js : Process ID: 22912
+[2018-05-13 04:50:39] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 04:50:39] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 04:50:39] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 04:50:39] INFO applicationLoader.js : =========================================
+[2018-05-13 04:50:39] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 04:50:39] INFO applicationLoader.js : App Locals set.
+[2018-05-13 04:50:39] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 04:50:39] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 04:50:39] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 04:50:39] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 04:50:39] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 04:50:39] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 04:50:39] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 04:50:39] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 04:50:39] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 04:50:39] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 04:51:10] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:51:10] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:51:10] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:51:10] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:51:10] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:51:10] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:51:10] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:51:10] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:51:10] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:51:10] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:51:10] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:51:10] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:51:16] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:51:16] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:51:16] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:51:16] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:51:16] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:51:16] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:51:16] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:51:16] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:51:16] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:51:16] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:51:16] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:51:16] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:52:05] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:52:05] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:52:05] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:52:05] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:52:05] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:52:05] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:52:05] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:52:05] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:52:05] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:52:05] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:52:05] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:52:05] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:52:45] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 04:52:45] INFO applicationLoader.js : Loading Application...
+[2018-05-13 04:52:45] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 04:52:45] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 04:52:45] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 04:52:45] INFO applicationLoader.js : Execution Args: ["--inspect=localhost:5858"]
+[2018-05-13 04:52:45] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 04:52:45] INFO applicationLoader.js : Process ID: 12808
+[2018-05-13 04:52:45] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 04:52:45] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 04:52:45] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 04:52:45] INFO applicationLoader.js : =========================================
+[2018-05-13 04:52:45] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 04:52:45] INFO applicationLoader.js : App Locals set.
+[2018-05-13 04:52:45] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 04:52:45] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 04:52:45] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 04:52:45] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 04:52:45] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 04:52:45] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 04:52:45] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 04:52:45] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 04:52:45] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 04:52:45] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 04:53:07] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:53:07] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:53:07] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:53:07] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:53:07] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:53:07] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:53:07] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:53:07] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:53:07] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:53:07] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:53:07] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:53:07] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:53:35] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:53:35] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:53:35] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:53:35] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:53:35] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:53:35] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:53:35] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:53:35] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:53:35] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:53:35] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:53:35] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:53:35] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:53:48] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:53:48] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:53:48] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:53:48] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:53:48] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:53:48] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:53:48] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:53:48] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:53:48] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:53:48] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:53:48] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:53:48] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:54:03] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:54:03] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:54:03] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:54:03] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:54:03] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:54:03] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:54:03] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:54:03] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:54:03] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:54:03] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:54:04] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:54:04] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:54:20] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:54:20] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:54:20] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:54:20] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:54:20] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:54:20] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:54:20] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:54:20] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:54:20] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:54:20] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:54:20] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:54:20] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:54:42] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:54:42] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:54:42] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:54:42] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:54:42] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:54:42] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:54:42] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:54:42] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:54:42] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:54:42] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:54:42] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:54:42] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:56:06] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 04:56:06] INFO applicationLoader.js : Loading Application...
+[2018-05-13 04:56:06] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 04:56:06] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 04:56:06] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 04:56:06] INFO applicationLoader.js : Execution Args: ["--inspect=localhost:5858"]
+[2018-05-13 04:56:06] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 04:56:06] INFO applicationLoader.js : Process ID: 22312
+[2018-05-13 04:56:06] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 04:56:06] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 04:56:06] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 04:56:06] INFO applicationLoader.js : =========================================
+[2018-05-13 04:56:06] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 04:56:06] INFO applicationLoader.js : App Locals set.
+[2018-05-13 04:56:06] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 04:56:06] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 04:56:06] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 04:56:06] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 04:56:07] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 04:56:07] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 04:56:07] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 04:56:07] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 04:56:07] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 04:56:07] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 04:56:12] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:56:12] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:56:12] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:56:12] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:56:12] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:56:12] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:56:12] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:56:12] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:56:12] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:56:12] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:56:12] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:56:12] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:56:15] DEBUG applicationRouter.js : In doCustom(), going to forward to processRequest()
+[2018-05-13 04:56:15] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:56:15] DEBUG applicationRouter.js : Content type is : undefined
+[2018-05-13 04:56:15] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:56:15] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:56:15] DEBUG helloController.js : Action Method not found in POST data, trying to fetch from Custom ...
+[2018-05-13 04:56:15] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:56:15] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : 
+[2018-05-13 04:56:15] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:56:15] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:56:15] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:56:15] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:56:47] DEBUG applicationRouter.js : In doPost(), going to forward to processRequest()
+[2018-05-13 04:56:47] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:56:47] DEBUG applicationRouter.js : Content type is : application/x-www-form-urlencoded
+[2018-05-13 04:56:47] DEBUG applicationRouter.js : Request received for action : Login
+[2018-05-13 04:56:47] DEBUG loginController.js : Inside LoginController -> handleRequest()
+[2018-05-13 04:56:47] DEBUG loginController.js : |~| Login Request |~| Request recieved for action method : loadLogin
+[2018-05-13 04:56:47] DEBUG loginController.js : |~| Login Request |~| Request recieved from view : welcome
+[2018-05-13 04:56:47] DEBUG loginAction.js : Inside LoginAction -> execute()
+[2018-05-13 04:56:47] DEBUG loginAction.js : Inside LoginAction -> loadLogin()
+[2018-05-13 04:56:47] DEBUG loginController.js : |~| Login Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:56:47] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : login
+[2018-05-13 04:56:49] DEBUG applicationRouter.js : In doPost(), going to forward to processRequest()
+[2018-05-13 04:56:49] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:56:49] DEBUG applicationRouter.js : Content type is : application/x-www-form-urlencoded
+[2018-05-13 04:56:49] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:56:49] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:56:49] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:56:49] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : login
+[2018-05-13 04:56:49] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:56:49] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:56:49] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:56:49] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:57:02] DEBUG applicationRouter.js : In doPost(), going to forward to processRequest()
+[2018-05-13 04:57:02] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:57:02] DEBUG applicationRouter.js : Content type is : application/x-www-form-urlencoded
+[2018-05-13 04:57:02] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:57:02] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:57:02] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:57:02] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : login
+[2018-05-13 04:57:02] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:57:02] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:57:02] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:57:02] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:57:18] DEBUG applicationRouter.js : In doPost(), going to forward to processRequest()
+[2018-05-13 04:57:18] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:57:18] DEBUG applicationRouter.js : Content type is : application/x-www-form-urlencoded
+[2018-05-13 04:57:18] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:57:18] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:57:18] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:57:18] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : login
+[2018-05-13 04:57:18] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:57:18] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:57:18] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:57:18] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 04:58:23] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 04:58:23] INFO applicationLoader.js : Loading Application...
+[2018-05-13 04:58:23] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 04:58:23] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 04:58:23] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 04:58:23] INFO applicationLoader.js : Execution Args: ["--inspect=localhost:5858"]
+[2018-05-13 04:58:23] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 04:58:23] INFO applicationLoader.js : Process ID: 11384
+[2018-05-13 04:58:23] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 04:58:23] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 04:58:23] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 04:58:23] INFO applicationLoader.js : =========================================
+[2018-05-13 04:58:23] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 04:58:23] INFO applicationLoader.js : App Locals set.
+[2018-05-13 04:58:23] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 04:58:23] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 04:58:23] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 04:58:23] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 04:58:23] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 04:58:23] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 04:58:23] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 04:58:23] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 04:58:23] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 04:58:23] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 04:58:33] DEBUG applicationRouter.js : In doPost(), going to forward to processRequest()
+[2018-05-13 04:58:33] DEBUG applicationRouter.js : Processing the Request...
+[2018-05-13 04:58:33] DEBUG applicationRouter.js : Content type is : application/x-www-form-urlencoded
+[2018-05-13 04:58:33] DEBUG applicationRouter.js : Request received for action : Hello
+[2018-05-13 04:58:33] DEBUG helloController.js : Inside HelloController -> handleRequest()
+[2018-05-13 04:58:33] DEBUG helloController.js : |~| Hello Request |~| Request recieved for action method : hello
+[2018-05-13 04:58:33] DEBUG helloController.js : |~| Hello Request |~| Request recieved from view : login
+[2018-05-13 04:58:33] DEBUG helloAction.js : Inside HelloAction -> execute()
+[2018-05-13 04:58:33] DEBUG helloAction.js : Inside HelloAction -> hello()
+[2018-05-13 04:58:33] DEBUG helloController.js : |~| Hello Request |~| Request handler returned after forwarding request to Promise
+[2018-05-13 04:58:33] DEBUG viewsHandler.js : In ViewsHandler -> dispatch, rendering to view : welcome
+[2018-05-13 05:24:26] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 05:24:26] INFO applicationLoader.js : Loading Application...
+[2018-05-13 05:24:26] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 05:24:26] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 05:24:26] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 05:24:26] INFO applicationLoader.js : Execution Args: ["--debug=5858","--inspect=localhost:5858"]
+[2018-05-13 05:24:26] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 05:24:26] INFO applicationLoader.js : Process ID: 18260
+[2018-05-13 05:24:26] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 05:24:26] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 05:24:26] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 05:24:26] INFO applicationLoader.js : =========================================
+[2018-05-13 05:24:26] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 05:24:26] INFO applicationLoader.js : App Locals set.
+[2018-05-13 05:24:26] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 05:24:26] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 05:24:26] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 05:24:26] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 05:24:26] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 05:24:26] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 05:24:26] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 05:24:26] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 05:24:26] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 05:24:26] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 05:26:28] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 05:26:28] INFO applicationLoader.js : Loading Application...
+[2018-05-13 05:26:28] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 05:26:28] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 05:26:28] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 05:26:28] INFO applicationLoader.js : Execution Args: ["--debug=5858","--inspect=localhost:5858"]
+[2018-05-13 05:26:28] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 05:26:28] INFO applicationLoader.js : Process ID: 17428
+[2018-05-13 05:26:28] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 05:26:28] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 05:26:28] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 05:26:28] INFO applicationLoader.js : =========================================
+[2018-05-13 05:26:28] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 05:26:28] INFO applicationLoader.js : App Locals set.
+[2018-05-13 05:26:28] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 05:26:28] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 05:26:28] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 05:26:28] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 05:26:28] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 05:26:28] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 05:26:28] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 05:26:28] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 05:26:28] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 05:26:28] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 05:34:28] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 05:34:28] INFO applicationLoader.js : Loading Application...
+[2018-05-13 05:34:28] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 05:34:28] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 05:34:28] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 05:34:28] INFO applicationLoader.js : Execution Args: ["--debug=5858","--inspect=localhost:5858"]
+[2018-05-13 05:34:28] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 05:34:28] INFO applicationLoader.js : Process ID: 15508
+[2018-05-13 05:34:28] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 05:34:28] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 05:34:28] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 05:34:28] INFO applicationLoader.js : =========================================
+[2018-05-13 05:34:28] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 05:34:28] INFO applicationLoader.js : App Locals set.
+[2018-05-13 05:34:28] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 05:34:28] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 05:34:28] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 05:34:28] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 05:34:28] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 05:34:28] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 05:34:28] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 05:34:28] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 05:34:28] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 05:34:28] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 05:40:46] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+[2018-05-13 05:40:46] INFO applicationLoader.js : Loading Application...
+[2018-05-13 05:40:46] INFO applicationLoader.js : ========= System Information ============
+[2018-05-13 05:40:46] INFO applicationLoader.js : Current directory: C:\Development\workProjects\Prototypes\Node.js\Basic\Framework\framework\main
+[2018-05-13 05:40:46] INFO applicationLoader.js : Execution Path: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 05:40:46] INFO applicationLoader.js : Execution Args: ["--inspect=localhost:5858"]
+[2018-05-13 05:40:46] INFO applicationLoader.js : Node Version: v8.9.4
+[2018-05-13 05:40:46] INFO applicationLoader.js : Process ID: 20620
+[2018-05-13 05:40:46] INFO applicationLoader.js : Process Title: C:\Development\Node.js\v8.9.4\node.exe
+[2018-05-13 05:40:46] INFO applicationLoader.js : Process Platform: win32
+[2018-05-13 05:40:46] INFO applicationLoader.js : Process Architecture: x64
+[2018-05-13 05:40:46] INFO applicationLoader.js : =========================================
+[2018-05-13 05:40:46] INFO applicationLoader.js : App Configuration set.
+[2018-05-13 05:40:46] INFO applicationLoader.js : App Locals set.
+[2018-05-13 05:40:46] INFO applicationLoader.js : Events Configuration set.
+[2018-05-13 05:40:46] INFO applicationLoader.js : File Uploader Loaded.
+[2018-05-13 05:40:46] INFO databaseConnectionManager.js : Loading the database driver...
+[2018-05-13 05:40:46] DEBUG databaseConnectionManager.js : Connection URL: mongodb://frame:Intel009*@localhost:27017/framework?authMechanism=DEFAULT
+[2018-05-13 05:40:46] INFO databaseConnectionManager.js : Database connections & pooling are configured successfully. Test Passed.
+[2018-05-13 05:40:46] INFO initConfigurator.js : Controller Factory loaded the Controller Directory successfully.
+[2018-05-13 05:40:46] INFO initConfigurator.js : Action Factory loaded the Action Directory successfully.
+[2018-05-13 05:40:46] INFO applicationLoader.js : Application Loader initialized prerequisites properties successfully from InitConfigurator.
+[2018-05-13 05:40:46] INFO applicationLoader.js : Loading of Application is done.
+[2018-05-13 05:40:46] INFO applicationLoader.js : |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|

@@ -1,0 +1,58 @@
+<!--
+ * @copyright Caliworks & ThoughtExecution
+ * @version 1.0
+ * @date May 2018
+ * @author Rishi Raj Bansal
+-->
+
+<%
+let username = "";
+let isLoggedIn = genericConstants[0].STRING_FALSE;
+let needRedirection = "";
+
+if (typeof rl_webRequest.session != 'undefined' && rl_webRequest.session != null){
+	
+	username = rl_webRequest.session[al_businessConstants[0].SESSION_ATTR_USERNAME];
+ 	isLoggedIn = rl_webRequest.session[al_businessConstants[0].SESSION_ATTR_LOGGEDIN];
+ 	
+ 	if (GenericUtility[0].fn_safeTrim(username) === genericConstants[0].EMPTY_STRING &&
+		GenericUtility[0].fn_safeTrim(isLoggedIn) !== genericConstants[0].STRING_TRUE){
+		
+		needRedirection = genericConstants[0].STRING_TRUE;
+
+	}
+}
+
+%>
+
+
+<html>
+	
+	<%# Commenting this form code as the hidden form elements are conflicting with other form elements with same name and as a result these parameters are taking precendence which are received as blank in actions%>
+
+	<!-- <body>
+		<form class="form-horizontal" id="sessMgmtForm" name="sessMgmtForm" method="post" action="<%= al_appRootContext %>" novalidate>
+						
+			<input type="hidden" id="<%= viewsConstants[0].VIEW_NAME %>" name="<%= viewsConstants[0].VIEW_NAME %>" >
+			<input type="hidden" id="<%= viewsConstants[0].PARAM_ACTION %>" name="<%= viewsConstants[0].PARAM_ACTION %>" >
+			<input type="hidden" id="<%= viewsConstants[0].PARAM_ACTION_METHOD %>" name="<%= viewsConstants[0].PARAM_ACTION_METHOD %>" >
+			
+		</form>
+	</body> -->
+	
+	<script type="text/javascript">
+	
+		var redirect = '<%= needRedirection %>';
+	
+		if (redirect === '<%= genericConstants[0].STRING_TRUE %>' ){
+			
+			document.getElementById('<%= viewsConstants[0].PARAM_ACTION %>').value 			= '<%= controllerDir[0].CONTROLLER_LOGIN %>';
+			document.getElementById('<%= viewsConstants[0].PARAM_ACTION_METHOD %>').value 	= '<%= actionMethods[0].ACTION_LOGIN_METHOD_LOGIN_LOAD %>';
+			document.getElementById('<%= viewsConstants[0].VIEW_NAME %>').value 			= '<%= (viewResponseData[viewsConstants[0].VIEW_NAME] + " - " + al_viewsDirectory[0].VIEW_SESSION_MGMT) %>';
+			
+			document.forms[0].submit();			
+		}
+
+	</script>
+</html>
+

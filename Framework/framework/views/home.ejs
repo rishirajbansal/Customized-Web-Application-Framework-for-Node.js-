@@ -1,0 +1,167 @@
+<!--
+ * @copyright Caliworks & ThoughtExecution
+ * @version 1.0
+ * @date May 2018
+ * @author Rishi Raj Bansal
+-->
+
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta name="description" content="">
+	    <meta name="author" content="Rishi Raj Bansal">
+	    
+	    <title>Home - <%= al_appName %></title>
+	    
+	    <link rel="stylesheet" href="../css/bootstrap.css" >
+	    <link rel="stylesheet" href="../css/custom.css" >
+	    <link rel="shortcut icon" href="../icons/favicon.ico">
+	    
+	    <style type="text/css">
+	    	.form-horizontal {
+				margin: 0px auto 20px;
+				max-width: 800px;
+			}
+	    </style>
+	    
+	    <script type="text/javascript">
+        
+        </script>
+	
+	</head>
+	
+	<body>
+		
+		<%- include header.ejs %>
+		
+		<main role="main">
+		
+			<header>
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+    					<li class="breadcrumb-item active" aria-current="page">Home</li>
+  					</ol>
+				</nav>
+			</header>
+			
+			<div class="container" style="min-height: 550px;">
+			
+				<form class="form-horizontal needs-validation" id="homeForm" name="homeForm" method="post" action="<%= al_appRootContext %>" enctype="multipart/form-data" novalidate>
+					
+					<input type="hidden" id="<%= viewsConstants[0].CSURF_PARAM_NAME %>" name="<%= viewsConstants[0].CSURF_PARAM_NAME %>" value="<%= rl_csurfToken %>">
+					<input type="hidden" id="<%= viewsConstants[0].VIEW_NAME %>" name="<%= viewsConstants[0].VIEW_NAME %>" >
+					<input type="hidden" id="<%= viewsConstants[0].PARAM_ACTION %>" name="<%= viewsConstants[0].PARAM_ACTION %>" >
+					<input type="hidden" id="<%= viewsConstants[0].PARAM_ACTION_METHOD %>" name="<%= viewsConstants[0].PARAM_ACTION_METHOD %>" >
+					
+					<%- include sessionMgmt.ejs %>
+				
+					<br/>
+					<%- include msgsHandler.ejs %>
+
+					<p class="lead">
+						<h3 style="color: #1886AA; text-align: center">
+							<br/>This will be a home page for the User. <br/>
+							<br/>
+							<small class="text-muted">The content for this page can be decided during the development. </small>
+						</h3>
+					</p>
+					
+					<br/><br/>
+					
+					<div class="jumbotron addon-jumbotron" style="padding-top: 20px;">
+						
+						<br/>
+						
+						<div class="form-group row">
+							<label for="<%= viewsConstants[0].PARAM_HOME_FIELD_TESTUPLOAD %>" class="col-sm-3 col-form-label">
+								<span style="color: #FF0000; font-size: 16px;">*</span>&nbsp;Select File :
+							</label>
+							<div class="col-sm-9">
+								<div class="input-group">
+									<div class="custom-file" style="display: initial;">
+										<input id="<%= viewsConstants[0].PARAM_HOME_FIELD_TESTUPLOAD %>" name="<%= viewsConstants[0].PARAM_HOME_FIELD_TESTUPLOAD %>" type="file" class="custom-file-input" aria-describedby="password_addon" onchange="javascript:setfilename(this.value)" required>
+										<label id="fileUploadLabel" class="custom-file-label" for="viewsConstants[0].PARAM_HOME_FIELD_TESTUPLOAD">Choose file</label>
+										<div class="valid-feedback">
+								        	Passed !
+								      	</div>
+								      	<div class="invalid-feedback">
+			          						Please choose file.
+			        					</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group row" style="float:right;margin-top: 10px;">
+	    					<div class="col-sm-12">
+	      						<button name="uploadBtn" value="uploadBtn" type="submit" onclick="javascript:submitHome()" class="btn btn-primary">Upload</button>
+	    					</div>
+	  					</div>
+	  					
+					</div>
+					
+					<div class="jumbotron addon-jumbotron" style="padding-top: 20px;">
+						<br/>
+						
+						<div class="form-group row" style="text-align: center; margin-top: 10px;">
+	    					<div class="col-sm-12">
+	      						<button name="downloadBtn" value="downloadBtn" type="button" onclick="javascript:submitDownload()" class="btn btn-success">Download</button>
+	    					</div>
+	  					</div>
+						
+					</div>
+					
+				</form>
+			
+			</div>
+		
+		</main>
+	
+		<%- include footer.ejs %>
+	
+	</body>
+	
+	<script type="text/javascript">
+		
+		function submitHome(){
+			document.getElementById('<%= viewsConstants[0].PARAM_ACTION %>').value 		= '<%= controllerDir[0].CONTROLLER_HOME %>';
+			document.getElementById('<%= viewsConstants[0].PARAM_ACTION_METHOD %>').value 	= '<%= actionMethods[0].ACTION_HOME_METHOD_HOME_SAVE %>';
+			
+			commonProperties();
+			
+			//Manual submit not needed as Bootstrap automatically validates the form and submits, enabling this will stop validations on form
+			//commonSubmit();
+		}
+		
+		function submitDownload(){
+			
+			document.getElementById('<%= viewsConstants[0].PARAM_ACTION %>').value 		= '<%= controllerDir[0].CONTROLLER_HOME %>';
+			document.getElementById('<%= viewsConstants[0].PARAM_ACTION_METHOD %>').value 	= '<%= actionMethods[0].ACTION_HOME_METHOD_DOWNLOAD %>';
+			
+			commonProperties();
+			commonSubmit();
+		}
+		
+		function commonProperties(){
+			document.getElementById('<%= viewsConstants[0].VIEW_NAME %>').value 			= '<%= viewResponseData[viewsConstants[0].VIEW_NAME] %>';
+			
+		}
+		
+		function commonSubmit(){
+			commonProperties();
+			document.homeForm.submit();
+			
+		}
+		
+		function setfilename(value) {
+			let fileName = value.split('\\').pop();
+			$('#fileUploadLabel').html(fileName);
+		}
+	
+	</script>
+	
+
+</html>

@@ -1,0 +1,84 @@
+<!--
+ * @copyright Caliworks & ThoughtExecution
+ * @version 1.0
+ * @date May 2018
+ * @author Rishi Raj Bansal
+-->
+
+
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta name="description" content="">
+	    <meta name="author" content="Rishi Raj Bansal">
+	    
+	    <title>Welcome - <%= al_appName %></title>
+	    
+	    <link rel="stylesheet" href="../css/bootstrap.css" >
+	    <link rel="stylesheet" href="../css/custom.css" >
+	    <link rel="shortcut icon" href="../icons/favicon.ico">
+	    
+	    <style type="text/css">
+	    	
+	    </style>
+	    
+	    <script type="text/javascript">
+        
+        </script>
+	
+	</head>
+	
+	<body>
+		
+		<%- include header.ejs %>
+		
+		<main role="main">
+				
+			<div class="container" style="padding-top: 30px; min-height: 550px;">
+				
+				<form class="form-horizontal needs-validation" id="welcomeForm" name="welcomeForm" method="post" action="<%= al_appRootContext %>" novalidate>
+				
+					<input type="hidden" id="<%= viewsConstants[0].CSURF_PARAM_NAME %>" name="<%= viewsConstants[0].CSURF_PARAM_NAME %>" value="<%= rl_csurfToken %>">
+					<input type="hidden" id="<%= viewsConstants[0].VIEW_NAME %>" name="<%= viewsConstants[0].VIEW_NAME %>" >
+					<input type="hidden" id="<%= viewsConstants[0].PARAM_ACTION %>" name="<%= viewsConstants[0].PARAM_ACTION %>" >
+					<input type="hidden" id="<%= viewsConstants[0].PARAM_ACTION_METHOD %>" name="<%= viewsConstants[0].PARAM_ACTION_METHOD %>" >
+					
+					<%- include msgsHandler.ejs %>
+			        
+			        <div class="jumbotron">
+  						<h1 class="display-4">Hello!</h1>
+  						<p class="lead">Welcome to Node Framework project.</p>
+					  	<hr class="my-4">
+					  	<p>This project work as a base framework which can be used as a platform to create new projects top on it.</p>
+					</div>
+					
+				</form>
+			
+			</div>
+		
+		</main>
+	
+		<%- include footer.ejs %>
+	
+	</body>
+	
+	<script type="text/javascript">
+	
+		function commonProperties(){
+			document.getElementById('<%= viewsConstants[0].VIEW_NAME %>').value 			= '<%= viewResponseData[viewsConstants[0].VIEW_NAME] %>';
+			
+		}
+		
+		function commonSubmit(){
+			commonProperties();
+			document.welcomeForm.submit();
+			
+		}
+		
+	</script>
+	
+
+</html>

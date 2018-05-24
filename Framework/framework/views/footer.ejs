@@ -1,0 +1,62 @@
+
+
+<footer class="footer" >
+    <div class="container">
+        Copyright by ThoughtExecution</p>
+    </div>
+</footer>
+
+<script type="text/javascript">
+
+	function displayLogin(){
+		document.getElementById('<%= viewsConstants[0].PARAM_ACTION %>').value 			= '<%= controllerDir[0].CONTROLLER_LOGIN %>';
+		document.getElementById('<%= viewsConstants[0].PARAM_ACTION_METHOD %>').value 	= '<%= actionMethods[0].ACTION_LOGIN_METHOD_LOGIN_LOAD %>';
+		
+		commonSubmit();
+	}
+	
+	function displayLoggedHome(){
+		document.getElementById('<%= viewsConstants[0].PARAM_ACTION %>').value 			= '<%= controllerDir[0].CONTROLLER_HOME %>';
+		document.getElementById('<%= viewsConstants[0].PARAM_ACTION_METHOD %>').value 	= '<%= actionMethods[0].ACTION_HOME_METHOD_HOME_LOAD %>';
+		
+		commonSubmit();
+	}
+	
+	function displayHome(){
+		document.getElementById('<%= viewsConstants[0].PARAM_ACTION %>').value 			= '<%= controllerDir[0].CONTROLLER_HELLO %>';
+		document.getElementById('<%= viewsConstants[0].PARAM_ACTION_METHOD %>').value 	= '<%= actionMethods[0].ACTION_HELLO_METHOD_HELLO %>';
+		
+		commonSubmit();
+	}
+	
+	function logout(){
+		document.getElementById('<%= viewsConstants[0].PARAM_ACTION %>').value 			= '<%= controllerDir[0].CONTROLLER_LOGOUT %>';
+		document.getElementById('<%= viewsConstants[0].PARAM_ACTION_METHOD %>').value 	= '<%= actionMethods[0].ACTION_LOGOUT_METHOD_LOGOUT %>';
+		
+		commonSubmit();
+	}
+	
+	(function() {
+		'use strict';
+		window.addEventListener('load', function() {
+			let forms = document.getElementsByClassName('needs-validation');
+			let validation = Array.prototype.filter.call(forms, function(form) {
+				form.addEventListener('submit', function(event) {
+					if (form.checkValidity() === false) {
+						event.preventDefault();
+						event.stopPropagation();
+					}
+					form.classList.add('was-validated');
+				}, false);
+			});
+		}, false);
+	})();
+	
+	
+</script>
+
+<script src="../js/jquery-3.3.1.slim.min.js" ></script>
+<script src="../js/popper.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script defer src="../lib/fontawesome-v5.0.12/js/fontawesome-all.js"></script>
+<script src="../js/functions.js"></script>

@@ -1,0 +1,159 @@
+<!--
+ * @copyright Caliworks & ThoughtExecution
+ * @version 1.0
+ * @date May 2018
+ * @author Rishi Raj Bansal
+-->
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta name="description" content="">
+	    <meta name="author" content="Rishi Raj Bansal">
+	    
+	    <title>Login - <%= al_appName %></title>
+	    
+	    <link rel="stylesheet" href="../css/bootstrap.css" >
+	    <link rel="stylesheet" href="../css/custom.css" >
+	    <link rel="shortcut icon" href="../icons/favicon.ico">
+	    
+	    <style type="text/css">
+	    	.form-horizontal {
+				margin: 0px auto 20px;
+				max-width: 650px;
+			}
+	    </style>
+	    
+	    <script type="text/javascript">
+        
+        </script>
+	
+	</head>
+	
+	<body>
+		
+		<%- include header.ejs %>
+		
+		<main role="main">
+			
+			<div class="container" style="min-height: 550px;">
+			
+				<form class="form-horizontal needs-validation" id="loginForm" name="loginForm" method="post" action="<%= al_appRootContext %>" novalidate>
+					
+					<input type="hidden" id="<%= viewsConstants[0].CSURF_PARAM_NAME %>" name="<%= viewsConstants[0].CSURF_PARAM_NAME %>" value="<%= rl_csurfToken %>">
+					<input type="hidden" id="<%= viewsConstants[0].VIEW_NAME %>" name="<%= viewsConstants[0].VIEW_NAME %>" >
+					<input type="hidden" id="<%= viewsConstants[0].PARAM_ACTION %>" name="<%= viewsConstants[0].PARAM_ACTION %>" >
+					<input type="hidden" id="<%= viewsConstants[0].PARAM_ACTION_METHOD %>" name="<%= viewsConstants[0].PARAM_ACTION_METHOD %>" >
+
+					
+					<div class="text-center">
+				  		<img src="/images/TE.png" class="rounded" width="15%">
+					</div>
+					<br/>
+					
+					<%- include msgsHandler.ejs %>
+					
+					<div class="jumbotron addon-jumbotron" style="padding-top: 20px;">
+					
+						<h1 class="h3 font-weight-normal" style="text-align: center;color: #6499c0;">Login</h1>
+						<br/>
+					
+						<div class="form-group row">
+							<label for="<%= viewsConstants[0].PARAM_LOGIN_FIELD_USERNAME %>" class="col-sm-3 col-form-label">
+								<span style="color: #FF0000; font-size: 16px;">*</span>&nbsp;Username :
+							</label>
+	   						<div class="col-sm-9">
+	   							<div class="input-group">
+		   							<input id="<%= viewsConstants[0].PARAM_LOGIN_FIELD_USERNAME %>" name="<%= viewsConstants[0].PARAM_LOGIN_FIELD_USERNAME %>" type="text" class="form-control" placeholder="Username" aria-describedby="username_addon" required>
+		   							<div class="input-group-append">
+	   									<span class="input-group-text" id="username_addon" style="border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem;"><i class="fas fa-user"></i></span>
+	   								</div>
+	   								<div class="valid-feedback">
+							        	Passed !
+							      	</div>
+							      	<div class="invalid-feedback">
+		          						Please enter a username.
+		        					</div>
+								</div>
+	   						</div>
+						</div>
+						
+						<div class="form-group row">
+							<label for="<%= viewsConstants[0].PARAM_LOGIN_FIELD_PASSWORD %>" class="col-sm-3 col-form-label">
+								<span style="color: #FF0000; font-size: 16px;">*</span>&nbsp;Password :
+							</label>
+	   						<div class="col-sm-9">
+	   							<div class="input-group">
+		   							<input id="<%= viewsConstants[0].PARAM_LOGIN_FIELD_PASSWORD %>" name="<%= viewsConstants[0].PARAM_LOGIN_FIELD_PASSWORD %>" type="password" class="form-control" placeholder="Password" aria-describedby="password_addon" required>
+		   							<div class="input-group-append">
+	   									<span class="input-group-text" id="password_addon" style="border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem;"><i class="fas fa-key"></i></span>
+	   								</div>
+	   								<small id="passwordHelpBlock" class="form-text text-muted">
+										Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces.
+									</small>
+		   							<div class="valid-feedback">
+							        	Passed !
+							      	</div>
+							      	<div class="invalid-feedback">
+		          						Please enter a password.
+		        					</div>
+								</div>
+	   						</div>
+						</div>
+						
+						<div class="form-group row" style="float:right;margin-top: 10px;">
+	    					<div class="col-sm-12">
+	    						<a href="javascript:forgotPassword()" style="float: left; margin-right: 15px; margin-top: 7px;"><b>Forgot Password ?</b></a>
+	    						<button type="reset" class="btn btn-secondary" style="margin-left: 20px">Reset</button>
+	      						<button name="loginBtn" value="loginBtn" type="submit" onclick="javascript:submitLogin()" class="btn btn-primary">Login</button>
+	    					</div>
+	  					</div>
+  					
+					</div>
+					
+				</form>
+			
+			</div>
+		
+		</main>
+	
+		<%- include footer.ejs %>
+	
+	</body>
+	
+	<script type="text/javascript">
+	
+		function submitLogin(){
+			document.getElementById('<%= viewsConstants[0].PARAM_ACTION %>').value 		= '<%= controllerDir[0].CONTROLLER_LOGIN %>';
+			document.getElementById('<%= viewsConstants[0].PARAM_ACTION_METHOD %>').value 	= '<%= actionMethods[0].ACTION_LOGIN_METHOD_LOGIN_SAVE %>';
+			
+			commonProperties();
+			
+			//Manual submit not needed as Bootstrap automatically validates the form and submits, enabling this will stop validations on form
+			//commonSubmit();
+		}
+		
+		function forgotPassword(){
+			document.getElementById('<%= viewsConstants[0].PARAM_ACTION %>').value 		= '<%= controllerDir[0].CONTROLLER_LOGIN %>';
+			document.getElementById('<%= viewsConstants[0].PARAM_ACTION_METHOD %>').value 	= '<%= actionMethods[0].ACTION_LOGIN_METHOD_FORGOT_PWD_LOAD %>';
+			
+			commonSubmit();
+		}
+		
+		function commonProperties(){
+			document.getElementById('<%= viewsConstants[0].VIEW_NAME %>').value 			= '<%= viewResponseData[viewsConstants[0].VIEW_NAME] %>';
+			
+		}
+		
+		function commonSubmit(){
+			commonProperties();
+			document.loginForm.submit();
+			
+		}
+	
+	</script>
+	
+
+</html>
